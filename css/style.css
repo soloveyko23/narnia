@@ -4165,7 +4165,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
   .header__top {
     min-height: 2.5rem;
-    padding: .625rem 0
+    padding: .625rem 0;
+    background-color: #fff
   }
   .header__top .header__menu .menu__header {
     display: none
