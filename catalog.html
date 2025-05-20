@@ -1,0 +1,2598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<style>
+		body {
+			opacity: 0;
+		}
+
+		.loaded body {
+			opacity: 1;
+		}
+	</style>
+
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="css/style.min.css?_v=20250520135540">
+
+
+	<script src="https://cdn.tailwindcss.com?_v=20250520135540"></script>
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header" data-scroll>
+			<div class="header__content">
+				<div class="header__top top-header">
+					<div class="header__container">
+						<div class="top-header__content">
+							<div class="header__menu menu">
+
+								<nav class="menu__body">
+									<div class="menu__header">
+										<div class="menu__logo">
+											<img src="img/logo-mob.svg" alt="logo">
+										</div>
+										<div class="menu__header-actions">
+											<div class="menu__lang lang-block">
+												<ul>
+													<li>
+														<a href="#" class="active">
+															UA
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															EN
+														</a>
+													</li>
+												</ul>
+											</div>
+											<div class="menu__close">
+												<button type="button" class="menu__close-btn icon-menu">
+													<i class="icon-nameclose"></i>
+												</button>
+											</div>
+										</div>
+									</div>
+									<ul>
+										<li>
+											<a href="#about" class="menu__link">
+												Про нас
+											</a>
+										</li>
+										<li>
+											<a href="#payment" class="menu__link">
+												Способи оплати
+											</a>
+										</li>
+										<li>
+											<a href="#blog" class="menu__link">
+												Блог
+											</a>
+										</li>
+										<li>
+											<a href="#shops" class="menu__link">
+												Наші магазини
+											</a>
+										</li>
+										<li>
+											<a href="#contacts" class="menu__link">
+												Контакти
+											</a>
+										</li>
+										<li>
+											<a href="#return" class="menu__link">
+												Обмін і повернення
+											</a>
+										</li>
+									</ul>
+
+									<div class="menu__footer">
+										<div class="dropdown-wrapper header__tel">
+											<button data-dropdown-toggle="dropdownPhonesMob">
+												<span>38 (099) 970-60-00</span>
+											</button>
+
+											<div data-dropdown="dropdownPhonesMob" class="dropdown">
+												<div class="dropdown__content">
+													<div class="dropdown__phone-item text-md">
+														<i class="icon-namephone "></i>
+														<a href="tel:+380999999999">+380 99 999 99 99</a>
+													</div>
+													<div class="dropdown__phone-item text-md">
+														<i class="icon-namephone "></i>
+														<a href="tel:+380888888888">+380 88 888 88 88</a>
+													</div>
+													<div class="dropdown__phone-item text-md">
+														<i class="icon-namephone "></i>
+														<a href="https://wa.me/380777777777">+380 77 777 77 77</a>
+													</div>
+
+
+												</div>
+											</div>
+										</div>
+										<div class="socials-block">
+											<ul>
+												<li>
+													<a href="#">
+														<img src="img/icons/telegram.svg" alt="facebook">
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<img src="img/icons/viber.svg" alt="viber">
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<img src="img/icons/insta.svg" alt="insta">
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</nav>
+							</div>
+							<div class="top-header__actions">
+								<div class="header__socials socials-block">
+									<ul>
+										<li>
+											<a href="#">
+												<img src="img/icons/telegram.svg" alt="facebook">
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="img/icons/viber.svg" alt="viber">
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="img/icons/insta.svg" alt="insta">
+											</a>
+										</li>
+									</ul>
+								</div>
+								<div class="header__lang lang-block">
+									<ul>
+										<li>
+											<a href="#" class="active">
+												UA
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												EN
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="header__bottom bottom-header">
+					<div class="header__container">
+						<div class="bottom-header__content">
+							<div class="bottom-header__left">
+								<div class="bottom-header__logo">
+									<a href="#">
+										<picture>
+											<source srcset="img/logo.svg" media="(min-width: 768px)" type="image/webp">
+											<img src="img/logo-mob.svg" alt="logo">
+										</picture>
+									</a>
+								</div>
+								<div class="bottom-header__catalog-btn">
+									<button class="button button-lg button-primary btn-catalog" data-custom-ripple="">
+										<i class="icon-namecatalog_line"></i>
+										Каталог
+									</button>
+								</div>
+							</div>
+							<div class="bottom-header__center">
+								<div class="bottom-header__search ">
+									<form action="#" class="form">
+										<div class="input-group input-group--sm input-group--icon">
+											<div class="input-group__icon">
+												<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+													<path d="M15.5002 15.4999L11.881 11.8808M11.881 11.8808C12.5001 11.2617 12.9912 10.5267 13.3262 9.71788C13.6612 8.90902 13.8337 8.0421 13.8337 7.16659C13.8337 6.29109 13.6612 5.42416 13.3262 4.61531C12.9912 3.80645 12.5001 3.0715 11.881 2.45243C11.2619 1.83335 10.527 1.34228 9.71813 1.00724C8.90927 0.672199 8.04234 0.499756 7.16684 0.499756C6.29134 0.499756 5.42441 0.672199 4.61555 1.00724C3.80669 1.34228 3.07174 1.83335 2.45267 2.45243C1.2024 3.7027 0.5 5.39844 0.5 7.16659C0.5 8.93475 1.2024 10.6305 2.45267 11.8808C3.70295 13.131 5.39868 13.8334 7.16684 13.8334C8.93499 13.8334 10.6307 13.131 11.881 11.8808Z" stroke="#B09888" stroke-linecap="round" stroke-linejoin="round" />
+												</svg>
+											</div>
+
+											<input type="text" id="search" class="input" placeholder=" ">
+											<label for="search" class="input-group__label label">
+												Пошук
+											</label>
+										</div>
+									</form>
+
+
+								</div>
+							</div>
+							<div class="bottom-header__right">
+								<div class="bottom-header header__tel dropdown-wrapper">
+									<button data-dropdown-toggle="dropdownPhones">
+										<span>38 (099) 970-60-00</span>
+										<i class="icon-namechevron-down"></i>
+									</button>
+
+									<div data-dropdown="dropdownPhones" class="dropdown">
+										<div class="dropdown__content">
+											<div class="dropdown__phone-item text-md">
+												<i class="icon-namephone "></i>
+												<a href="tel:+380999999999">+380 99 999 99 99</a>
+											</div>
+											<div class="dropdown__phone-item text-md">
+												<i class="icon-namephone "></i>
+												<a href="tel:+380888888888">+380 88 888 88 88</a>
+											</div>
+											<div class="dropdown__phone-item text-md">
+												<i class="icon-namephone "></i>
+												<a href="https://wa.me/380777777777">+380 77 777 77 77</a>
+											</div>
+
+
+										</div>
+									</div>
+								</div>
+								<div class="bottom-header__actions">
+									<ul>
+										<li>
+											<a href="#">
+												<i class="icon-nameperson"></i>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<i class="icon-nameheart_line"></i>
+											</a>
+										</li>
+										<li>
+											<a href="#" data-offcanvas-trigger="#cartOffcanvas">
+												<i class="icon-namecart-outline"></i>
+											</a>
+										</li>
+									</ul>
+
+								</div>
+								<button type="button" class="menu__icon icon-menu"><span></span></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="header-widget">
+			<div class="header-widget__content">
+				<ul>
+					<li>
+						<a href="#" class="btn-catalog">
+							<i class="icon-namecatalog_line"></i>
+							Каталог
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="icon-nameheart_line"></i>
+							Вибране
+						</a>
+					</li>
+
+					<li>
+						<a href="tel:+380999999999">
+							<i class="icon-namephone_line"></i>
+							Подзвонити
+						</a>
+					</li>
+					<li>
+						<a href="#" data-offcanvas-trigger="#cartOffcanvas">
+							<i class="icon-namecart-outline"></i>
+							Кошик
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- Многоуровневый каталог -->
+		<div class="catalog-menu">
+			<div class="catalog-menu__backdrop"></div>
+			<div class="catalog-menu__container">
+				<div class="catalog-menu__inner">
+					<div class="catalog-menu__header">
+						<div class="catalog-menu__title">Каталог</div>
+						<button type="button" class="catalog-menu__close">
+							<i class="icon-nameclose"></i>
+						</button>
+					</div>
+
+					<div class="catalog-menu__content">
+						<div class="catalog-menu__categories">
+							<ul class="catalog-menu__list">
+								<li class="catalog-menu__item" data-category="bedding">
+									<a href="#" class="catalog-menu__link" data-prevent-scroll>
+										Постельное белье
+										<i class="icon-namechevron-right"></i>
+									</a>
+									<!-- Мобильная подкатегория (коллапс) -->
+									<div class="catalog-menu__subcategory-mobile">
+										<div class="catalog-menu__subcategory-content">
+											<div class="catalog-menu__col">
+												<h4>Ткань</h4>
+												<ul>
+													<li><a href="#">Жаккард <span>(от 450 грн)</span></a></li>
+													<li><a href="#">Сатин <span>(от 450 грн)</span></a></li>
+													<li><a href="#">Ранфорс <span>(от 450 грн)</span></a></li>
+													<li><a href="#">Бязь <span>(от 450 грн)</span></a></li>
+													<li><a href="#">Страйп-сатин <span>(от 450 грн)</span></a></li>
+													<li><a href="#">Поликоттон <span>(от 450 грн)</span></a></li>
+												</ul>
+											</div>
+											<div class="catalog-menu__col">
+												<h4>Размер</h4>
+												<ul>
+													<li><a href="#">Двуспальный</a></li>
+													<li><a href="#">Евро</a></li>
+													<li><a href="#">Евро Макси (King Size)</a></li>
+													<li><a href="#">Младенцам / в кроватку</a></li>
+													<li><a href="#">Односпальный</a></li>
+													<li><a href="#">Полуторный</a></li>
+													<li><a href="#">Семейный</a></li>
+												</ul>
+											</div>
+											<div class="catalog-menu__col">
+												<h4>Популярные цвета</h4>
+												<ul>
+													<li><a href="#">Пудра</a></li>
+													<li><a href="#">Розовый</a></li>
+													<li><a href="#">Бежевый</a></li>
+													<li><a href="#">Серый</a></li>
+												</ul>
+											</div>
+											<div class="catalog-menu__col">
+												<h4>Особенности</h4>
+												<ul>
+													<li><a href="#">На резинке</a></li>
+													<li><a href="#">Зимнее</a></li>
+													<li><a href="#">Летнее</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="catalog-menu__item" data-category="children">
+									<a href="#" class="catalog-menu__link" data-prevent-scroll>
+										Для детей
+										<i class="icon-namechevron-right"></i>
+									</a>
+									<!-- Мобильная подкатегория (коллапс) -->
+									<div class="catalog-menu__subcategory-mobile">
+										<div class="catalog-menu__subcategory-content">
+											<div class="catalog-menu__col">
+												<h4>Категории</h4>
+												<ul>
+													<li><a href="#">Детское постельное</a></li>
+													<li><a href="#">Детские одеяла</a></li>
+													<li><a href="#">Детские подушки</a></li>
+													<li><a href="#">Пледы для детей</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="catalog-menu__item" data-category="mattresses">
+									<a href="#" class="catalog-menu__link">
+										Матрасы
+										<i class="icon-namechevron-right"></i>
+									</a>
+									<!-- Мобильная подкатегория (коллапс) -->
+									<div class="catalog-menu__subcategory-mobile">
+										<div class="catalog-menu__subcategory-content">
+											<!-- Содержимое подкатегории -->
+										</div>
+									</div>
+								</li>
+								<li class="catalog-menu__item" data-category="bedspreads">
+									<a href="#" class="catalog-menu__link">
+										Пододеяльники
+										<i class="icon-namechevron-right"></i>
+									</a>
+								</li>
+								<li class="catalog-menu__item" data-category="sheets">
+									<a href="#" class="catalog-menu__link">
+										Простыни
+										<i class="icon-namechevron-right"></i>
+									</a>
+								</li>
+								<li class="catalog-menu__item" data-category="pillowcases">
+									<a href="#" class="catalog-menu__link">
+										Наволочки
+										<i class="icon-namechevron-right"></i>
+									</a>
+								</li>
+								<li class="catalog-menu__item" data-category="blankets">
+									<a href="#" class="catalog-menu__link">
+										Одеяла
+										<i class="icon-namechevron-right"></i>
+									</a>
+								</li>
+								<li class="catalog-menu__item" data-category="pillows">
+									<a href="#" class="catalog-menu__link">
+										Подушки
+										<i class="icon-namechevron-right"></i>
+									</a>
+								</li>
+								<li class="catalog-menu__item" data-category="plaids">
+									<a href="#" class="catalog-menu__link">
+										Пледы
+										<i class="icon-namechevron-right"></i>
+									</a>
+								</li>
+								<li class="catalog-menu__item" data-category="bedspreads">
+									<a href="#" class="catalog-menu__link">
+										Покрывала
+										<i class="icon-namechevron-right"></i>
+									</a>
+								</li>
+								<li class="catalog-menu__item" data-category="mattress-covers">
+									<a href="#" class="catalog-menu__link">
+										Наматрасники
+										<i class="icon-namechevron-right"></i>
+									</a>
+								</li>
+								<li class="catalog-menu__item" data-category="bathrobes">
+									<a href="#" class="catalog-menu__link">
+										Халаты
+										<i class="icon-namechevron-right"></i>
+									</a>
+								</li>
+								<li class="catalog-menu__item" data-category="towels">
+									<a href="#" class="catalog-menu__link">
+										Полотенца
+										<i class="icon-namechevron-right"></i>
+									</a>
+								</li>
+								<li class="catalog-menu__item" data-category="tablecloths">
+									<a href="#" class="catalog-menu__link">
+										Скатерти кухонные
+										<i class="icon-namechevron-right"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="catalog-menu__subcategories">
+							<!-- Содержимое подкатегорий для десктопа -->
+							<div class="catalog-menu__subcategory" data-category="bedding">
+								<div class="catalog-menu__back visible-mobile">
+									<button type="button">
+										<i class="icon-namechevron-left"></i>
+										Назад
+									</button>
+								</div>
+								<div class="catalog-menu__subcategory-header visible-mobile">
+									<h3>Постельное белье</h3>
+								</div>
+								<div class="catalog-menu__subcategory-content">
+									<div class="catalog-menu__col">
+										<h4>Ткань</h4>
+										<ul>
+											<li><a href="#">Жаккард <span>(от 450 грн)</span></a></li>
+											<li><a href="#">Сатин <span>(от 450 грн)</span></a></li>
+											<li><a href="#">Ранфорс <span>(от 450 грн)</span></a></li>
+											<li><a href="#">Бязь <span>(от 450 грн)</span></a></li>
+											<li><a href="#">Страйп-сатин <span>(от 450 грн)</span></a></li>
+											<li><a href="#">Поликоттон <span>(от 450 грн)</span></a></li>
+										</ul>
+									</div>
+									<div class="catalog-menu__col">
+										<h4>Размер</h4>
+										<ul>
+											<li><a href="#">Двуспальный</a></li>
+											<li><a href="#">Евро</a></li>
+											<li><a href="#">Евро Макси (King Size)</a></li>
+											<li><a href="#">Младенцам / в кроватку</a></li>
+											<li><a href="#">Односпальный</a></li>
+											<li><a href="#">Полуторный</a></li>
+											<li><a href="#">Семейный</a></li>
+										</ul>
+									</div>
+									<div class="catalog-menu__col">
+										<h4>Популярные цвета</h4>
+										<ul>
+											<li><a href="#">Пудра</a></li>
+											<li><a href="#">Розовый</a></li>
+											<li><a href="#">Бежевый</a></li>
+											<li><a href="#">Серый</a></li>
+										</ul>
+									</div>
+									<div class="catalog-menu__col">
+										<h4>Особенности</h4>
+										<ul>
+											<li><a href="#">На резинке</a></li>
+											<li><a href="#">Зимнее</a></li>
+											<li><a href="#">Летнее</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="catalog-menu__banner">
+									<div class="catalog-menu__banner-title">Детское постельное</div>
+									<a href="#" class="catalog-menu__banner-link">Перейти</a>
+								</div>
+							</div>
+
+							<!-- Пример для других категорий -->
+							<div class="catalog-menu__subcategory" data-category="children">
+								<div class="catalog-menu__back visible-mobile">
+									<button type="button">
+										<i class="icon-namechevron-left"></i>
+										Назад
+									</button>
+								</div>
+								<div class="catalog-menu__subcategory-header visible-mobile">
+									<h3>Для детей</h3>
+								</div>
+								<div class="catalog-menu__subcategory-content">
+									<div class="catalog-menu__col">
+										<h4>Категории</h4>
+										<ul>
+											<li><a href="#">Детское постельное</a></li>
+											<li><a href="#">Детские одеяла</a></li>
+											<li><a href="#">Детские подушки</a></li>
+											<li><a href="#">Пледы для детей</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<!-- Остальные подкатегории можно добавить аналогично -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<main class="page">
+			<section class="catalog-categories">
+				<div class="catalog-categories__container">
+					<div class="catalog-categories__content">
+						<div class="catalog-categories__header">
+							<h1 class="h3 text-brown-900">Постільна білизна</h1>
+
+
+
+							<div class="flex items-center">
+								<button type="button" class="lg:!hidden flex button button-sm button-tertiary button-filter">
+									<i class="icon-namefilter"></i>
+									<span>Фільтр</span>
+
+								</button>
+								<div class="dropdown-wrapper dropdown-sort dropdown-sort--mob">
+									<button data-dropdown-toggle="dropdownSort" class="text-brown-800 font-light dropdown__button button button-sm button-tertiary" type="button">
+										<i class="icon-namesort icon-mob"></i>
+										<b>Сортування</b>
+									</button>
+
+									<div data-dropdown="dropdownSort" class="dropdown">
+										<div class="dropdown__content">
+											<div class="dropdown__item">
+												<a href="#" class="dropdown__link active">За замовчуванням <i class="icon-namecheck"></i></a>
+											</div>
+											<div class="dropdown__item">
+												<a href="#" class="dropdown__link">За зменшенням ціни</a>
+											</div>
+											<div class="dropdown__item">
+												<a href="#" class="dropdown__link">За зростанням ціни</a>
+											</div>
+											<div class="dropdown__item">
+												<a href="#" class="dropdown__link">За зростанням рейтингу</a>
+											</div>
+											<div class="dropdown__item">
+												<a href="#" class="dropdown__link">За спаданням рейтингу</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="dropdown-wrapper dropdown-sort dropdown-sort--pc">
+									<button data-dropdown-toggle="dropdownSortMob" class="text-brown-800 font-light dropdown__button" type="button">
+
+										<b>Сортування:</b> <span> за замовчуванням</span>
+										<i class="icon-namechevron-down"></i>
+									</button>
+
+									<div data-dropdown="dropdownSortMob" class="dropdown">
+										<div class="dropdown__content">
+											<div class="dropdown__item">
+												<a href="#" class="dropdown__link active">За замовчуванням <i class="icon-namecheck"></i></a>
+											</div>
+											<div class="dropdown__item">
+												<a href="#" class="dropdown__link">За зменшенням ціни</a>
+											</div>
+											<div class="dropdown__item">
+												<a href="#" class="dropdown__link">За зростанням ціни</a>
+											</div>
+											<div class="dropdown__item">
+												<a href="#" class="dropdown__link">За зростанням рейтингу</a>
+											</div>
+											<div class="dropdown__item">
+												<a href="#" class="dropdown__link">За спаданням рейтингу</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="catalog-categories__body">
+							<div class="catalog-categories__sidebar sidebar-catalog">
+								<div class="sidebar-catalog__header">
+									<div class="flex justify-between items-center gap-2">
+										<h5 class="text-brown-600 !font-light">Фільтр</h5>
+										<button type="button" class="sidebar-catalog__close catalog-menu__close">
+											<i class="icon-nameclose"></i>
+										</button>
+									</div>
+									<div class="sidebar-catalog__tags !hidden">
+										<button type="button" class="button button-secondary-beige button-sm !font-semibold sidebar-catalog__clear-filter " data-clear-filter>
+											<span>Очистити фільтр</span>
+										</button>
+
+									</div>
+								</div>
+								<div class="sidebar-catalog__body">
+									<div data-spollers class="spollers">
+										<details class="spollers__item" data-open>
+											<summary class="spollers__title">Тканина</summary>
+											<div class="spollers__body">
+												<div class="flex flex-col gap-2">
+													<div class="checkbox-default">
+														<input id="c_1" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="c_1" class="checkbox__label">
+															<p class="checkbox__text">
+																бязь
+																<small>10</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="c_2" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="c_2" class="checkbox__label">
+															<p class="checkbox__text">
+																жаккард
+																<small>8</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="c_3" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="c_3" class="checkbox__label">
+															<p class="checkbox__text">
+																поплоттон
+																<small>12</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="c_4" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="c_4" class="checkbox__label">
+															<p class="checkbox__text">
+																ранфорс
+																<small>6</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="c_5" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="c_5" class="checkbox__label">
+															<p class="checkbox__text">
+																сатин
+																<small>15</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="c_6" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="c_6" class="checkbox__label">
+															<p class="checkbox__text">
+																страйп-сатин
+																<small>4</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="c_7" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="c_7" class="checkbox__label">
+															<p class="checkbox__text">
+																поплоттон
+																<small>9</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="c_8" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="c_8" class="checkbox__label">
+															<p class="checkbox__text">
+																фланель
+																<small>3</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="c_9" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="c_9" class="checkbox__label">
+															<p class="checkbox__text">
+																Здоров'я Snowcap
+																<small>7</small>
+															</p>
+														</label>
+													</div>
+												</div>
+											</div>
+										</details>
+										<details class="spollers__item">
+											<summary class="spollers__title">Розмір</summary>
+											<div class="spollers__body">
+												<div class="flex flex-col gap-2">
+													<div class="checkbox-default">
+														<input id="size_1" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="size_1" class="checkbox__label">
+															<p class="checkbox__text">
+																Односпальний
+																<small>15</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="size_2" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="size_2" class="checkbox__label">
+															<p class="checkbox__text">
+																Полуторний
+																<small>22</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="size_3" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="size_3" class="checkbox__label">
+															<p class="checkbox__text">
+																Двоспальний
+																<small>24</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="size_4" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="size_4" class="checkbox__label">
+															<p class="checkbox__text">
+																Євро
+																<small>18</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="size_5" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="size_5" class="checkbox__label">
+															<p class="checkbox__text">
+																Сімейний
+																<small>12</small>
+															</p>
+														</label>
+													</div>
+												</div>
+											</div>
+										</details>
+										<details class="spollers__item">
+											<summary class="spollers__title">Розмір підковдри</summary>
+											<div class="spollers__body">
+												<div class="flex flex-col gap-2">
+													<div class="checkbox-default">
+														<input id="duvet_1" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="duvet_1" class="checkbox__label">
+															<p class="checkbox__text">
+																140x205
+																<small>15</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="duvet_2" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="duvet_2" class="checkbox__label">
+															<p class="checkbox__text">
+																155x215
+																<small>18</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="duvet_3" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="duvet_3" class="checkbox__label">
+															<p class="checkbox__text">
+																180x210
+																<small>20</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="duvet_4" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="duvet_4" class="checkbox__label">
+															<p class="checkbox__text">
+																200x220
+																<small>14</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="duvet_5" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="duvet_5" class="checkbox__label">
+															<p class="checkbox__text">
+																200x230
+																<small>8</small>
+															</p>
+														</label>
+													</div>
+												</div>
+											</div>
+										</details>
+										<details class="spollers__item">
+											<summary class="spollers__title">Розмір наволочок</summary>
+											<div class="spollers__body">
+												<div class="flex flex-col gap-2">
+													<div class="checkbox-default">
+														<input id="pillow_1" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="pillow_1" class="checkbox__label">
+															<p class="checkbox__text">
+																50x70
+																<small>25</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="pillow_2" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="pillow_2" class="checkbox__label">
+															<p class="checkbox__text">
+																70x70
+																<small>32</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="pillow_3" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="pillow_3" class="checkbox__label">
+															<p class="checkbox__text">
+																60x60
+																<small>18</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="pillow_4" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="pillow_4" class="checkbox__label">
+															<p class="checkbox__text">
+																50x50
+																<small>12</small>
+															</p>
+														</label>
+													</div>
+												</div>
+											</div>
+										</details>
+										<details class="spollers__item">
+											<summary class="spollers__title">Розмір простирадла</summary>
+											<div class="spollers__body">
+												<div class="flex flex-col gap-2">
+													<div class="checkbox-default">
+														<input id="sheet_1" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="sheet_1" class="checkbox__label">
+															<p class="checkbox__text">
+																150x210
+																<small>16</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="sheet_2" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="sheet_2" class="checkbox__label">
+															<p class="checkbox__text">
+																160x220
+																<small>18</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="sheet_3" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="sheet_3" class="checkbox__label">
+															<p class="checkbox__text">
+																180x220
+																<small>22</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="sheet_4" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="sheet_4" class="checkbox__label">
+															<p class="checkbox__text">
+																200x220
+																<small>15</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="sheet_5" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="sheet_5" class="checkbox__label">
+															<p class="checkbox__text">
+																220x240
+																<small>8</small>
+															</p>
+														</label>
+													</div>
+												</div>
+											</div>
+										</details>
+										<details class="spollers__item">
+											<summary class="spollers__title">Матеріал</summary>
+											<div class="spollers__body">
+												<div class="flex flex-col gap-2">
+													<div class="checkbox-default">
+														<input id="material_1" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="material_1" class="checkbox__label">
+															<p class="checkbox__text">
+																Бавовна
+																<small>42</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="material_2" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="material_2" class="checkbox__label">
+															<p class="checkbox__text">
+																Мікрофібра
+																<small>15</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="material_3" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="material_3" class="checkbox__label">
+															<p class="checkbox__text">
+																Поліестер
+																<small>18</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="material_4" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="material_4" class="checkbox__label">
+															<p class="checkbox__text">
+																Шовк
+																<small>7</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="material_5" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="material_5" class="checkbox__label">
+															<p class="checkbox__text">
+																Льон
+																<small>5</small>
+															</p>
+														</label>
+													</div>
+												</div>
+											</div>
+										</details>
+										<details class="spollers__item" data-open>
+											<summary class="spollers__title">Колір</summary>
+											<div class="spollers__body">
+												<div data-showmore="items" class="block__showmore flex flex-col gap-2">
+													<div data-showmore-content data-showmore-content-items="10" class="flex flex-col gap-2">
+														<div class="checkbox-default">
+															<input id="color_1" class="checkbox__input" type="checkbox" value="1" name="form[]">
+															<label for="color_1" class="checkbox__label">
+																<p class="checkbox__text">
+																	<span style="background-color: white;"></span>
+																	білий
+																	<small>12</small>
+																</p>
+															</label>
+														</div>
+														<div class="checkbox-default">
+															<input id="color_2" class="checkbox__input" type="checkbox" value="1" name="form[]">
+															<label for="color_2" class="checkbox__label">
+																<p class="checkbox__text">
+																	<span style="background-color: lightblue;"></span>
+																	блакитний
+																	<small>8</small>
+																</p>
+															</label>
+														</div>
+														<div class="checkbox-default">
+															<input id="color_3" class="checkbox__input" type="checkbox" value="1" name="form[]">
+															<label for="color_3" class="checkbox__label">
+																<p class="checkbox__text">
+																	<span style="background-color: orange;"></span>
+																	оранжевий
+																	<small>5</small>
+																</p>
+															</label>
+														</div>
+														<div class="checkbox-default">
+															<input id="color_4" class="checkbox__input" type="checkbox" value="1" name="form[]">
+															<label for="color_4" class="checkbox__label">
+																<p class="checkbox__text">
+																	<span style="background-color: green;"></span>
+																	зелений
+																	<small>7</small>
+																</p>
+															</label>
+														</div>
+														<div class="checkbox-default">
+															<input id="color_5" class="checkbox__input" type="checkbox" value="1" name="form[]">
+															<label for="color_5" class="checkbox__label">
+																<p class="checkbox__text">
+																	<span style="background-color: yellow;"></span>
+																	жовтий
+																	<small>4</small>
+																</p>
+															</label>
+														</div>
+														<div class="checkbox-default">
+															<input id="color_6" class="checkbox__input" type="checkbox" value="1" name="form[]">
+															<label for="color_6" class="checkbox__label">
+																<p class="checkbox__text">
+																	<span style="background-color: purple;"></span>
+																	фіолетовий
+																	<small>3</small>
+																</p>
+															</label>
+														</div>
+														<div class="checkbox-default">
+															<input id="color_7" class="checkbox__input" type="checkbox" value="1" name="form[]">
+															<label for="color_7" class="checkbox__label">
+																<p class="checkbox__text">
+																	<span style="background-color: red;"></span>
+																	красний
+																	<small>6</small>
+																</p>
+															</label>
+														</div>
+														<div class="checkbox-default">
+															<input id="color_1" class="checkbox__input" type="checkbox" value="1" name="form[]">
+															<label for="color_1" class="checkbox__label">
+																<p class="checkbox__text">
+																	<span style="background-color: white;"></span>
+																	білий
+																	<small>12</small>
+																</p>
+															</label>
+														</div>
+														<div class="checkbox-default">
+															<input id="color_2" class="checkbox__input" type="checkbox" value="1" name="form[]">
+															<label for="color_2" class="checkbox__label">
+																<p class="checkbox__text">
+																	<span style="background-color: lightblue;"></span>
+																	блакитний
+																	<small>8</small>
+																</p>
+															</label>
+														</div>
+														<div class="checkbox-default">
+															<input id="color_3" class="checkbox__input" type="checkbox" value="1" name="form[]">
+															<label for="color_3" class="checkbox__label">
+																<p class="checkbox__text">
+																	<span style="background-color: orange;"></span>
+																	оранжевий
+																	<small>5</small>
+																</p>
+															</label>
+														</div>
+														<div class="checkbox-default">
+															<input id="color_4" class="checkbox__input" type="checkbox" value="1" name="form[]">
+															<label for="color_4" class="checkbox__label">
+																<p class="checkbox__text">
+																	<span style="background-color: green;"></span>
+																	зелений
+																	<small>7</small>
+																</p>
+															</label>
+														</div>
+														<div class="checkbox-default">
+															<input id="color_5" class="checkbox__input" type="checkbox" value="1" name="form[]">
+															<label for="color_5" class="checkbox__label">
+																<p class="checkbox__text">
+																	<span style="background-color: yellow;"></span>
+																	жовтий
+																	<small>4</small>
+																</p>
+															</label>
+														</div>
+														<div class="checkbox-default">
+															<input id="color_6" class="checkbox__input" type="checkbox" value="1" name="form[]">
+															<label for="color_6" class="checkbox__label">
+																<p class="checkbox__text">
+																	<span style="background-color: purple;"></span>
+																	фіолетовий
+																	<small>3</small>
+																</p>
+															</label>
+														</div>
+														<div class="checkbox-default">
+															<input id="color_7" class="checkbox__input" type="checkbox" value="1" name="form[]">
+															<label for="color_7" class="checkbox__label">
+																<p class="checkbox__text">
+																	<span style="background-color: red;"></span>
+																	красний
+																	<small>6</small>
+																</p>
+															</label>
+														</div>
+													</div>
+													<button data-showmore-button="" type="button" class="block__more !mt-3 items-start justify-start flex text-brown-800 gap-2 font-medium"><span>Більше</span><span>Менше</span><i class="icon-namechevron-down "></i></button>
+												</div>
+											</div>
+										</details>
+										<details class="spollers__item">
+											<summary class="spollers__title">Дизайн</summary>
+											<div class="spollers__body">
+												<div class="flex flex-col gap-2">
+													<div class="checkbox-default">
+														<input id="design_1" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="design_1" class="checkbox__label">
+															<p class="checkbox__text">
+																Квіти
+																<small>24</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="design_2" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="design_2" class="checkbox__label">
+															<p class="checkbox__text">
+																Однотонний
+																<small>32</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="design_3" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="design_3" class="checkbox__label">
+															<p class="checkbox__text">
+																Геометричний
+																<small>15</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="design_4" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="design_4" class="checkbox__label">
+															<p class="checkbox__text">
+																Дитячий
+																<small>18</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="design_5" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="design_5" class="checkbox__label">
+															<p class="checkbox__text">
+																Абстрактний
+																<small>12</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="design_6" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="design_6" class="checkbox__label">
+															<p class="checkbox__text">
+																Смуги
+																<small>9</small>
+															</p>
+														</label>
+													</div>
+												</div>
+											</div>
+										</details>
+										<details class="spollers__item">
+											<summary class="spollers__title">Виробник</summary>
+											<div class="spollers__body">
+												<div class="flex flex-col gap-2">
+													<div class="checkbox-default">
+														<input id="brand_1" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="brand_1" class="checkbox__label">
+															<p class="checkbox__text">
+																Narnia
+																<small>45</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="brand_2" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="brand_2" class="checkbox__label">
+															<p class="checkbox__text">
+																Вілюта
+																<small>18</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="brand_3" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="brand_3" class="checkbox__label">
+															<p class="checkbox__text">
+																Голд
+																<small>22</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="brand_4" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="brand_4" class="checkbox__label">
+															<p class="checkbox__text">
+																ТЕП
+																<small>12</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="brand_5" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="brand_5" class="checkbox__label">
+															<p class="checkbox__text">
+																Міраж
+																<small>8</small>
+															</p>
+														</label>
+													</div>
+												</div>
+											</div>
+										</details>
+										<details class="spollers__item">
+											<summary class="spollers__title">Склад тканини</summary>
+											<div class="spollers__body">
+												<div class="flex flex-col gap-2">
+													<div class="checkbox-default">
+														<input id="composition_1" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="composition_1" class="checkbox__label">
+															<p class="checkbox__text">
+																100% бавовна
+																<small>35</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="composition_2" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="composition_2" class="checkbox__label">
+															<p class="checkbox__text">
+																80% бавовна, 20% поліестер
+																<small>18</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="composition_3" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="composition_3" class="checkbox__label">
+															<p class="checkbox__text">
+																100% мікрофібра
+																<small>12</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="composition_4" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="composition_4" class="checkbox__label">
+															<p class="checkbox__text">
+																60% бавовна, 40% поліестер
+																<small>15</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="composition_5" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="composition_5" class="checkbox__label">
+															<p class="checkbox__text">
+																100% льон
+																<small>5</small>
+															</p>
+														</label>
+													</div>
+												</div>
+											</div>
+										</details>
+										<details class="spollers__item">
+											<summary class="spollers__title">Особливості</summary>
+											<div class="spollers__body">
+												<div class="flex flex-col gap-2">
+													<div class="checkbox-default">
+														<input id="feature_1" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="feature_1" class="checkbox__label">
+															<p class="checkbox__text">
+																Гіпоалергенне
+																<small>28</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="feature_2" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="feature_2" class="checkbox__label">
+															<p class="checkbox__text">
+																Натуральні матеріали
+																<small>32</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="feature_3" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="feature_3" class="checkbox__label">
+															<p class="checkbox__text">
+																Зносостійке
+																<small>25</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="feature_4" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="feature_4" class="checkbox__label">
+															<p class="checkbox__text">
+																Швидке висихання
+																<small>18</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="feature_5" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="feature_5" class="checkbox__label">
+															<p class="checkbox__text">
+																На резинці
+																<small>15</small>
+															</p>
+														</label>
+													</div>
+												</div>
+											</div>
+										</details>
+										<details class="spollers__item">
+											<summary class="spollers__title">Ціна</summary>
+											<div class="spollers__body">
+												<div class="flex flex-col gap-2">
+													<div class="checkbox-default">
+														<input id="price_1" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="price_1" class="checkbox__label">
+															<p class="checkbox__text">
+																до 1000 грн
+																<small>22</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="price_2" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="price_2" class="checkbox__label">
+															<p class="checkbox__text">
+																1000 - 1500 грн
+																<small>35</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="price_3" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="price_3" class="checkbox__label">
+															<p class="checkbox__text">
+																1500 - 2000 грн
+																<small>28</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="price_4" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="price_4" class="checkbox__label">
+															<p class="checkbox__text">
+																2000 - 3000 грн
+																<small>15</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="price_5" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="price_5" class="checkbox__label">
+															<p class="checkbox__text">
+																більше 3000 грн
+																<small>8</small>
+															</p>
+														</label>
+													</div>
+												</div>
+											</div>
+										</details>
+										<details class="spollers__item">
+											<summary class="spollers__title">Країна виробник</summary>
+											<div class="spollers__body">
+												<div class="flex flex-col gap-2">
+													<div class="checkbox-default">
+														<input id="country_1" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="country_1" class="checkbox__label">
+															<p class="checkbox__text">
+																Україна
+																<small>65</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="country_2" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="country_2" class="checkbox__label">
+															<p class="checkbox__text">
+																Туреччина
+																<small>18</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="country_3" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="country_3" class="checkbox__label">
+															<p class="checkbox__text">
+																Італія
+																<small>8</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="country_4" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="country_4" class="checkbox__label">
+															<p class="checkbox__text">
+																Китай
+																<small>12</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="country_5" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="country_5" class="checkbox__label">
+															<p class="checkbox__text">
+																Польща
+																<small>5</small>
+															</p>
+														</label>
+													</div>
+												</div>
+											</div>
+										</details>
+										<details class="spollers__item">
+											<summary class="spollers__title">Розпродаж</summary>
+											<div class="spollers__body">
+												<div class="flex flex-col gap-2">
+													<div class="checkbox-default">
+														<input id="sale_1" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="sale_1" class="checkbox__label">
+															<p class="checkbox__text">
+																Зі знижкою
+																<small>42</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="sale_2" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="sale_2" class="checkbox__label">
+															<p class="checkbox__text">
+																Хіт продажу
+																<small>28</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="sale_3" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="sale_3" class="checkbox__label">
+															<p class="checkbox__text">
+																Новинка
+																<small>35</small>
+															</p>
+														</label>
+													</div>
+													<div class="checkbox-default">
+														<input id="sale_4" class="checkbox__input" type="checkbox" value="1" name="form[]">
+														<label for="sale_4" class="checkbox__label">
+															<p class="checkbox__text">
+																Остання колекція
+																<small>15</small>
+															</p>
+														</label>
+													</div>
+												</div>
+											</div>
+										</details>
+									</div>
+
+									<div class="sidebar-catalog__footer !mt-2 !hidden">
+										<button type="button" class="button button-clear-filter-pc button-md button-secondary-beige w-full" data-custom-ripple data-clear-filter>
+											<span>Очистити фільтр</span>
+
+										</button>
+										<div class="grid grid-cols-2 gap-2 button-clear-filter-mob">
+											<button type="button" class="button button-md button-tertiary" data-custom-ripple data-clear-filter>
+												<span>Очистити</span>
+											</button>
+											<button type="button" class="button button-md button-secondary-beige" data-custom-ripple>
+												<span>Показати</span>
+											</button>
+
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="catalog-categories__main">
+								<div class="catalog-categories__list">
+									<div class="card-product">
+										<div class="card-product__body">
+											<div class="card-product__header">
+												<div class="card-product__actions">
+													<button type="button" class="button button-lg button-add-to-favorite">
+														<i class="icon-nameheart_line text-orange-500"></i>
+													</button>
+												</div>
+												<a href="#" class="card-product__image">
+													<img src="img/product/01.webp" alt="product">
+												</a>
+											</div>
+											<div class="card-product__content">
+
+												<a href="#" class="card-product__title text-brown-900 line-clamp-2">
+													Комплект постельного белья "Вишня" Бязь
+												</a>
+												<div class="card-product__price price-block">
+
+													<div class="price-block__new">1245 грн</div>
+													<div class="price-block__promotion">
+														-12%
+													</div>
+													<div class="price-block__old">1450 грн</div>
+												</div>
+												<div class="card-product__footer">
+													<button type="button" data-popup="#popupBuyOneClick" class="button button-md button-primary" data-custom-ripple>
+
+														<span>До кошика</span>
+														<i class="icon-namecart-outline"></i>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card-product">
+										<div class="card-product__body">
+											<div class="card-product__header">
+												<div class="card-product__actions">
+													<button type="button" class="button button-lg button-add-to-favorite">
+														<i class="icon-nameheart_line text-orange-500"></i>
+													</button>
+												</div>
+												<a href="#" class="card-product__image">
+													<img src="img/product/01.webp" alt="product">
+												</a>
+											</div>
+											<div class="card-product__content">
+
+												<a href="#" class="card-product__title text-brown-900 line-clamp-2">
+													Комплект постельного белья "Вишня" Бязь
+												</a>
+												<div class="card-product__price price-block">
+
+													<div class="price-block__new">1245 грн</div>
+													<div class="price-block__promotion">
+														-12%
+													</div>
+													<div class="price-block__old">1450 грн</div>
+												</div>
+												<div class="card-product__footer">
+													<button type="button" class="button button-md button-primary" data-custom-ripple>
+
+														<span>До кошика</span>
+														<i class="icon-namecart-outline"></i>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card-product">
+										<div class="card-product__body">
+											<div class="card-product__header">
+												<div class="card-product__actions">
+													<button type="button" class="button button-lg button-add-to-favorite">
+														<i class="icon-nameheart_line text-orange-500"></i>
+													</button>
+												</div>
+												<a href="#" class="card-product__image">
+													<img src="img/product/01.webp" alt="product">
+												</a>
+											</div>
+											<div class="card-product__content">
+
+												<a href="#" class="card-product__title text-brown-900 line-clamp-2">
+													Комплект постельного белья "Вишня" Бязь
+												</a>
+												<div class="card-product__price price-block">
+
+													<div class="price-block__new">1245 грн</div>
+													<div class="price-block__promotion">
+														-12%
+													</div>
+													<div class="price-block__old">1450 грн</div>
+												</div>
+												<div class="card-product__footer">
+													<button type="button" class="button button-md button-primary" data-custom-ripple>
+
+														<span>До кошика</span>
+														<i class="icon-namecart-outline"></i>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card-product">
+										<div class="card-product__body">
+											<div class="card-product__header">
+												<div class="card-product__actions">
+													<button type="button" class="button button-lg button-add-to-favorite">
+														<i class="icon-nameheart_line text-orange-500"></i>
+													</button>
+												</div>
+												<a href="#" class="card-product__image">
+													<img src="img/product/01.webp" alt="product">
+												</a>
+											</div>
+											<div class="card-product__content">
+
+												<a href="#" class="card-product__title text-brown-900 line-clamp-2">
+													Комплект постельного белья "Вишня" Бязь
+												</a>
+												<div class="card-product__price price-block">
+
+													<div class="price-block__new">1245 грн</div>
+													<div class="price-block__promotion">
+														-12%
+													</div>
+													<div class="price-block__old">1450 грн</div>
+												</div>
+												<div class="card-product__footer">
+													<button type="button" class="button button-md button-primary" data-custom-ripple>
+
+														<span>До кошика</span>
+														<i class="icon-namecart-outline"></i>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card-product">
+										<div class="card-product__body">
+											<div class="card-product__header">
+												<div class="card-product__actions">
+													<button type="button" class="button button-lg button-add-to-favorite">
+														<i class="icon-nameheart_line text-orange-500"></i>
+													</button>
+												</div>
+												<a href="#" class="card-product__image">
+													<img src="img/product/01.webp" alt="product">
+												</a>
+											</div>
+											<div class="card-product__content">
+
+												<a href="#" class="card-product__title text-brown-900 line-clamp-2">
+													Комплект постельного белья "Вишня" Бязь
+												</a>
+												<div class="card-product__price price-block">
+
+													<div class="price-block__new">1245 грн</div>
+													<div class="price-block__promotion">
+														-12%
+													</div>
+													<div class="price-block__old">1450 грн</div>
+												</div>
+												<div class="card-product__footer">
+													<button type="button" class="button button-md button-primary" data-custom-ripple>
+
+														<span>До кошика</span>
+														<i class="icon-namecart-outline"></i>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card-product">
+										<div class="card-product__body">
+											<div class="card-product__header">
+												<div class="card-product__actions">
+													<button type="button" class="button button-lg button-add-to-favorite">
+														<i class="icon-nameheart_line text-orange-500"></i>
+													</button>
+												</div>
+												<a href="#" class="card-product__image">
+													<img src="img/product/01.webp" alt="product">
+												</a>
+											</div>
+											<div class="card-product__content">
+
+												<a href="#" class="card-product__title text-brown-900 line-clamp-2">
+													Комплект постельного белья "Вишня" Бязь
+												</a>
+												<div class="card-product__price price-block">
+
+													<div class="price-block__new">1245 грн</div>
+													<div class="price-block__promotion">
+														-12%
+													</div>
+													<div class="price-block__old">1450 грн</div>
+												</div>
+												<div class="card-product__footer">
+													<button type="button" class="button button-md button-primary" data-custom-ripple>
+
+														<span>До кошика</span>
+														<i class="icon-namecart-outline"></i>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card-product">
+										<div class="card-product__body">
+											<div class="card-product__header">
+												<div class="card-product__actions">
+													<button type="button" class="button button-lg button-add-to-favorite">
+														<i class="icon-nameheart_line text-orange-500"></i>
+													</button>
+												</div>
+												<a href="#" class="card-product__image">
+													<img src="img/product/01.webp" alt="product">
+												</a>
+											</div>
+											<div class="card-product__content">
+
+												<a href="#" class="card-product__title text-brown-900 line-clamp-2">
+													Комплект постельного белья "Вишня" Бязь
+												</a>
+												<div class="card-product__price price-block">
+
+													<div class="price-block__new">1245 грн</div>
+													<div class="price-block__promotion">
+														-12%
+													</div>
+													<div class="price-block__old">1450 грн</div>
+												</div>
+												<div class="card-product__footer">
+													<button type="button" class="button button-md button-primary" data-custom-ripple>
+
+														<span>До кошика</span>
+														<i class="icon-namecart-outline"></i>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card-product">
+										<div class="card-product__body">
+											<div class="card-product__header">
+												<div class="card-product__actions">
+													<button type="button" class="button button-lg button-add-to-favorite">
+														<i class="icon-nameheart_line text-orange-500"></i>
+													</button>
+												</div>
+												<a href="#" class="card-product__image">
+													<img src="img/product/01.webp" alt="product">
+												</a>
+											</div>
+											<div class="card-product__content">
+
+												<a href="#" class="card-product__title text-brown-900 line-clamp-2">
+													Комплект постельного белья "Вишня" Бязь
+												</a>
+												<div class="card-product__price price-block">
+
+													<div class="price-block__new">1245 грн</div>
+													<div class="price-block__promotion">
+														-12%
+													</div>
+													<div class="price-block__old">1450 грн</div>
+												</div>
+												<div class="card-product__footer">
+													<button type="button" class="button button-md button-primary" data-custom-ripple>
+
+														<span>До кошика</span>
+														<i class="icon-namecart-outline"></i>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card-product">
+										<div class="card-product__body">
+											<div class="card-product__header">
+												<div class="card-product__actions">
+													<button type="button" class="button button-lg button-add-to-favorite">
+														<i class="icon-nameheart_line text-orange-500"></i>
+													</button>
+												</div>
+												<a href="#" class="card-product__image">
+													<img src="img/product/01.webp" alt="product">
+												</a>
+											</div>
+											<div class="card-product__content">
+
+												<a href="#" class="card-product__title text-brown-900 line-clamp-2">
+													Комплект постельного белья "Вишня" Бязь
+												</a>
+												<div class="card-product__price price-block">
+
+													<div class="price-block__new">1245 грн</div>
+													<div class="price-block__promotion">
+														-12%
+													</div>
+													<div class="price-block__old">1450 грн</div>
+												</div>
+												<div class="card-product__footer">
+													<button type="button" class="button button-md button-primary" data-custom-ripple>
+
+														<span>До кошика</span>
+														<i class="icon-namecart-outline"></i>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card-product">
+										<div class="card-product__body">
+											<div class="card-product__header">
+												<div class="card-product__actions">
+													<button type="button" class="button button-lg button-add-to-favorite">
+														<i class="icon-nameheart_line text-orange-500"></i>
+													</button>
+												</div>
+												<a href="#" class="card-product__image">
+													<img src="img/product/01.webp" alt="product">
+												</a>
+											</div>
+											<div class="card-product__content">
+
+												<a href="#" class="card-product__title text-brown-900 line-clamp-2">
+													Комплект постельного белья "Вишня" Бязь
+												</a>
+												<div class="card-product__price price-block">
+
+													<div class="price-block__new">1245 грн</div>
+													<div class="price-block__promotion">
+														-12%
+													</div>
+													<div class="price-block__old">1450 грн</div>
+												</div>
+												<div class="card-product__footer">
+													<button type="button" class="button button-md button-primary" data-custom-ripple>
+
+														<span>До кошика</span>
+														<i class="icon-namecart-outline"></i>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card-product">
+										<div class="card-product__body">
+											<div class="card-product__header">
+												<div class="card-product__actions">
+													<button type="button" class="button button-lg button-add-to-favorite">
+														<i class="icon-nameheart_line text-orange-500"></i>
+													</button>
+												</div>
+												<a href="#" class="card-product__image">
+													<img src="img/product/01.webp" alt="product">
+												</a>
+											</div>
+											<div class="card-product__content">
+
+												<a href="#" class="card-product__title text-brown-900 line-clamp-2">
+													Комплект постельного белья "Вишня" Бязь
+												</a>
+												<div class="card-product__price price-block">
+
+													<div class="price-block__new">1245 грн</div>
+													<div class="price-block__promotion">
+														-12%
+													</div>
+													<div class="price-block__old">1450 грн</div>
+												</div>
+												<div class="card-product__footer">
+													<button type="button" class="button button-md button-primary" data-custom-ripple>
+
+														<span>До кошика</span>
+														<i class="icon-namecart-outline"></i>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card-product">
+										<div class="card-product__body">
+											<div class="card-product__header">
+												<div class="card-product__actions">
+													<button type="button" class="button button-lg button-add-to-favorite">
+														<i class="icon-nameheart_line text-orange-500"></i>
+													</button>
+												</div>
+												<a href="#" class="card-product__image">
+													<img src="img/product/01.webp" alt="product">
+												</a>
+											</div>
+											<div class="card-product__content">
+
+												<a href="#" class="card-product__title text-brown-900 line-clamp-2">
+													Комплект постельного белья "Вишня" Бязь
+												</a>
+												<div class="card-product__price price-block">
+
+													<div class="price-block__new">1245 грн</div>
+													<div class="price-block__promotion">
+														-12%
+													</div>
+													<div class="price-block__old">1450 грн</div>
+												</div>
+												<div class="card-product__footer">
+													<button type="button" class="button button-md button-primary" data-custom-ripple>
+
+														<span>До кошика</span>
+														<i class="icon-namecart-outline"></i>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card-product">
+										<div class="card-product__body">
+											<div class="card-product__header">
+												<div class="card-product__actions">
+													<button type="button" class="button button-lg button-add-to-favorite">
+														<i class="icon-nameheart_line text-orange-500"></i>
+													</button>
+												</div>
+												<a href="#" class="card-product__image">
+													<img src="img/product/01.webp" alt="product">
+												</a>
+											</div>
+											<div class="card-product__content">
+
+												<a href="#" class="card-product__title text-brown-900 line-clamp-2">
+													Комплект постельного белья "Вишня" Бязь
+												</a>
+												<div class="card-product__price price-block">
+
+													<div class="price-block__new">1245 грн</div>
+													<div class="price-block__promotion">
+														-12%
+													</div>
+													<div class="price-block__old">1450 грн</div>
+												</div>
+												<div class="card-product__footer">
+													<button type="button" class="button button-md button-primary" data-custom-ripple>
+
+														<span>До кошика</span>
+														<i class="icon-namecart-outline"></i>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card-product">
+										<div class="card-product__body">
+											<div class="card-product__header">
+												<div class="card-product__actions">
+													<button type="button" class="button button-lg button-add-to-favorite">
+														<i class="icon-nameheart_line text-orange-500"></i>
+													</button>
+												</div>
+												<a href="#" class="card-product__image">
+													<img src="img/product/01.webp" alt="product">
+												</a>
+											</div>
+											<div class="card-product__content">
+
+												<a href="#" class="card-product__title text-brown-900 line-clamp-2">
+													Комплект постельного белья "Вишня" Бязь
+												</a>
+												<div class="card-product__price price-block">
+
+													<div class="price-block__new">1245 грн</div>
+													<div class="price-block__promotion">
+														-12%
+													</div>
+													<div class="price-block__old">1450 грн</div>
+												</div>
+												<div class="card-product__footer">
+													<button type="button" class="button button-md button-primary" data-custom-ripple>
+
+														<span>До кошика</span>
+														<i class="icon-namecart-outline"></i>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="catalog-categories__footer">
+									<div class="pagging">
+										<a href="" class="pagging__arrow">
+											<i class="icon-namearrow-left"></i>
+											<span>Попередня</span>
+
+										</a>
+										<ul class="pagging__list">
+											<li>
+												<a href="" class="pagging__item _active">1</a>
+											</li>
+											<li>
+												<a href="" class="pagging__item">2</a>
+											</li>
+											<li>
+												<a href="" class="pagging__item">3</a>
+											</li>
+											<li>
+												<a href="" class="pagging__item">4</a>
+											</li>
+											<li>
+												<a href="" class="pagging__item">5</a>
+											</li>
+										</ul>
+										<a href="" class="pagging__arrow">
+											<span>Наступна</span>
+											<i class="icon-namearrow-right"></i>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /.catalog-categories -->
+
+
+			<section class="seo-section section-padding-y-80">
+				<div class="seo-section__container">
+					<div class="seo-section__content">
+						<div data-showmore="200" class="seo-section-content">
+							<div data-showmore-content="250" class="seo-section-content__content">
+								<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+									<div class="seo-section-content__item">
+										<h5>Інтернет-магазин постільної білизни Narnia – якісний текстиль для вашого дому</h5>
+										<p>
+											Текстильні вироби створюють затишок в домі, надають йому індивідуальності та унікальності. Вдало підібраний текстиль також буде милувати погляд господарів та дарувати радість від його використання.
+
+
+
+										</p>
+										<p>
+											Інтернет-магазин Narnia пропонує широкий вибір якісної, стильної та комфортної постільної білизни, яка стане гідним доповненням до вашого інтер'єру.
+										</p>
+										<p>
+											В різноманітті тканин, кольорів та дизайнерських рішень наших виробів, безсумнівно, кожен зможе знайти те, що буде відповідати саме його відчуттю прекрасного.
+										</p>
+										<p>
+											Щоб замовити товар, необхідно залишити заявку на сайті. Купити недорого якісну постільну білизну цілком реально, адже Narnia являється виробником, і реалізовує товари без необґрунтованих націнок.
+										</p>
+									</div>
+									<div class="seo-section-content__item">
+										<h5>Narnia – ідеальна постільна білизна для дорослих та дітей</h5>
+										<p>
+											Всі запропоновані нами товари мають високу якість та бездоганне виконання. 
+
+
+
+
+
+										</p>
+										<p>
+											Ми - безпосередній український виробник постільної білизни, тому впевнені в якості кожного свого виробу! 
+										</p>
+										<p>
+											Асортимент нашого магазину включає:
+										</p>
+										<ul>
+											<li>
+												постільну білизну з сатину, бязі, полікоттону, страйп-сатину.
+											</li>
+											<li>
+												покривала, затишні пледи із вовни та мікрофібри.
+											</li>
+											<li>
+												кухонні, лазневі рушники.
+											</li>
+										</ul>
+										<p>
+											Ми пропонуємо постільну білизну найрізноманітніших кольорів та дизайну - як однотонну класику так і  яскраву постіль зі стильним принтом. 
+										</p>
+										<p>
+											Нам є що запропонувати і маленьким покупцям – нашу дитячу постіль з зображенням тварин, героїв мультфільмів, казок та модних у дитячому середовищі сюжетів, яка неодмінно прийде до смаку як хлопчикам, так і дівчаткам!
+										</p>
+									</div>
+								</div>
+
+							</div>
+							<button hidden data-showmore-button type="button" class="seo-section-content__more"><span>Показати ще</span><span>Сховати</span><i class="icon-namechevron-down"></i></button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /.seo-section -->
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__content">
+					<div class="footer__column">
+						<div class="footer__logo">
+							<a href="/">
+								<img src="img/logo.svg" alt="Narnia">
+							</a>
+
+						</div>
+						<div class="sm:block hidden">
+							<div class="footer__socials socials-block">
+								<ul>
+									<li>
+										<a href="#">
+											<img src="img/icons/telegram.svg" alt="facebook">
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="img/icons/viber.svg" alt="viber">
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="img/icons/insta.svg" alt="insta">
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="footer__copyright">© Narnia 2024</div>
+						</div>
+					</div>
+
+					<div class="footer__column">
+						<div class="footer__menu-title">Наш магазин</div>
+						<ul class="footer__menu-list">
+							<li><a href="#">Обмін і повернення</a></li>
+							<li><a href="#">Про нас</a></li>
+							<li><a href="#">Оплата і доставка</a></li>
+							<li><a href="#">Постійна знижка від виробника</a></li>
+						</ul>
+					</div>
+					<div class="footer__column">
+						<div class="footer__menu-title">Контакти</div>
+						<ul class="footer__menu-list footer__contacts">
+							<li><a href="tel:+380992671031">(099) 267-10-31</a></li>
+							<li><a href="tel:+380989540127">(098) 954-01-27</a></li>
+							<li><a href="mailto:narniatextile@gmail.com">narniatextile@gmail.com</a></li>
+						</ul>
+					</div>
+					<div class="footer__column">
+						<div class="footer__menu-title">Підпишіться на розсилку</div>
+						<form class="footer__subscribe-form">
+							<div class="input-group input-group--sm">
+
+
+								<input type="text" id="search" class="input !bg-transparent" placeholder=" ">
+								<label for="search" class="input-group__label label">
+									Email
+								</label>
+							</div>
+							<button type="submit" class="button button-secondary-white button-lg">Підписатись</button>
+						</form>
+					</div>
+					<div class="footer__column sm:hidden">
+						<div class="footer__socials socials-block">
+							<ul>
+								<li>
+									<a href="#">
+										<img src="img/icons/telegram.svg" alt="facebook">
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="img/icons/viber.svg" alt="viber">
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="img/icons/insta.svg" alt="insta">
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__copyright">© Narnia 2024</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div id="popupBuyOneClick" aria-hidden="true" class="popup popup-xl">
+			<div class="popup__wrapper">
+				<div class="popup__content">
+					<div class="popup__header flex justify-between items-center">
+						<div class="popup__header-content">
+							<h6 class="text-brown-900 !font-medium">
+								Купити в 1 клік
+							</h6>
+						</div>
+
+						<button data-close type="button" class="popup__close">
+							<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+								<path d="M0.571909 0.57189L19.4281 19.4281M19.4281 0.57189L0.571909 19.4281" stroke="#A57E6A" stroke-linecap="round" stroke-linejoin="round" />
+							</svg>
+						</button>
+					</div>
+					<div class="popup__body popup-info-product">
+						<div class="popup-info-product__columns">
+							<div class="popup-info-product__column">
+								<div class="popup-info-product__slider swiper">
+									<div class="popup-info-product__wrapper swiper-wrapper">
+										<div class="popup-info-product__slide swiper-slide">
+											<img src="img/product/01.webp" alt="01">
+										</div>
+										<div class="popup-info-product__slide swiper-slide">
+											<img src="img/product/01.webp" alt="01">
+										</div>
+										<div class="popup-info-product__slide swiper-slide">
+											<img src="img/product/02.webp" alt="01">
+										</div>
+										<div class="popup-info-product__slide swiper-slide">
+											<img src="img/product/03.webp" alt="01">
+										</div>
+
+									</div>
+									<div class="slider-pagination-fraction">
+										<div class="swiper-pagination"></div>
+									</div>
+									<div class="slider-navigation">
+										<button type="button" class="swiper-button-prev slider-button-type-one ">
+											<i class="icon-namechevron-left"></i>
+										</button>
+										<button type="button" class="swiper-button-next slider-button-type-one ">
+											<i class="icon-namechevron-right"></i>
+										</button>
+									</div>
+								</div>
+
+							</div>
+							<div class="popup-info-product__column">
+								<div class="popup-info-product__content">
+									<div class="popup-info-product-widget widget-header text-brown-900 flex flex-col gap-2">
+										<h6 class="line-clamp-3">
+											Комплект постельного белья Пудра Сатин
+										</h6>
+										<span class="">Код товару: NDP-22-50</span>
+									</div>
+									<div class="popup-info-product-widget widget-price flex flex-col gap-2">
+										<div class="flex justify-between gap-2">
+											<div class="price-block">
+
+												<div class="price-block__new">1245 грн</div>
+												<div class="price-block__promotion">
+													-12%
+												</div>
+												<div class="price-block__old text-brown-300">1450 грн</div>
+											</div>
+											<div class="price-timer text-xs text-brown-300 inline-flex items-center gap-1">
+												<i class="icon-nametimer"></i>
+												24 години
+											</div>
+										</div>
+										<p class="text-xs text-brown-900 !font-light">Розстрочка від 79 грн!</p>
+									</div>
+
+									<div class="popup-info-product-widget widget-check">
+										<div class="popup-info-product-widget__header">
+											<h6 class="text-brown-900">Розмір</h6>
+											<a href="#" class="text-xs text-brown-900 text-underline link-underline">
+												Розмірна сітка
+											</a>
+										</div>
+										<div class="widget-check__body">
+											<div class="flex flex-wrap gap-1">
+												<div class="radio-text">
+													<input id="cc_1" class="radio__input" checked type="radio" value="1" name="size">
+													<label for="cc_1" class="radio__label">
+														<p>Полуторний</p>
+														<span>1245 грн</span>
+													</label>
+												</div>
+												<div class="radio-text">
+													<input id="cc_2" class="radio__input" type="radio" value="1" name="size">
+													<label for="cc_2" class="radio__label">
+														<p>Двоспальний</p>
+														<span>1245 грн</span>
+													</label>
+												</div>
+												<div class="radio-text">
+													<input id="cc_3" class="radio__input" type="radio" value="1" name="size">
+													<label for="cc_3" class="radio__label">
+														<p>Євро</p>
+														<span>1245 грн</span>
+													</label>
+												</div>
+												<div class="radio-text">
+													<input id="cc_4" class="radio__input" type="radio" value="1" name="size">
+													<label for="cc_4" class="radio__label">
+														<p>Сімейний</p>
+														<span>1245 грн</span>
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="popup-info-product-widget widget-check">
+										<div class="popup-info-product-widget__header">
+											<h6 class="text-brown-900">Наволочки</h6>
+
+										</div>
+										<div class="widget-check__body">
+											<div class="flex flex-wrap gap-1">
+
+												<div class="radio-text">
+													<input id="ccc_3" class="radio__input" checked type="radio" value="1" name="pillowcases">
+													<label for="ccc_3" class="radio__label">
+														<p>50х70</p>
+													</label>
+												</div>
+												<div class="radio-text">
+													<input id="ccc_4" class="radio__input" type="radio" value="1" name="pillowcases">
+													<label for="ccc_4" class="radio__label">
+														<p>70х70</p>
+													</label>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="popup-info-product-widget widget-footer">
+										<div class="popup-info-product-widget__header">
+											<h6 class="text-brown-900">Додаткові послуги</h6>
+
+										</div>
+										<div class="popup-info-product-widget__body">
+											<div class="flex flex-col gap-3">
+												<div class="flex flex-col gap-3">
+													<label class="checkbox-toggle" for="switch">
+														<input type="checkbox" id="switch" />
+														<span class="slider"></span>
+														<span class="label-text">Простирадло на резинці</span>
+													</label>
+													<label class="checkbox-toggle" for="switch1">
+														<input type="checkbox" id="switch1" />
+														<span class="slider"></span>
+														<span class="label-text">Подарункова упаковка</span>
+													</label>
+												</div>
+
+												<div class="flex gap-2 items-center widget__footer-actions">
+													<div data-quantity class="quantity quantity-lg">
+														<button data-quantity-minus type="button" class="quantity__button quantity__button--minus"></button>
+														<div class="quantity__input">
+															<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+														</div>
+														<button data-quantity-plus type="button" class="quantity__button quantity__button--plus"></button>
+													</div>
+													<button type="button" class="button button-primary button-lg w-100" data-custom-ripple>
+														Додати в кошик
+													</button>
+												</div>
+											</div>
+
+
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="offcanvas" id="cartOffcanvas" data-offcanvas>
+			<div class="offcanvas__backdrop" data-close></div> <!-- Опциональный бэкдроп для закрытия по клику вне -->
+			<div class="offcanvas__content">
+				<div class="offcanvas__header">
+					<h4 class="offcanvas__title text-brown-900">Кошик (1)</h4>
+					<button type="button" class="offcanvas__close" data-close><i class="icon-nameclose"></i></button> <!-- Кнопка закрытия внутри -->
+				</div>
+				<div class="offcanvas__body cart-body flex flex-col gap-8">
+					<div class="cart-body__row">
+						<div class="cart-body__list flex flex-col gap-2">
+							<div class="card-thumb">
+								<div class="card-thumb__body">
+									<div class="card-thumb__image">
+										<img src="img/product/01.webp" alt="01">
+									</div>
+									<div class="card-thumb__content">
+										<a href="#" class="card-thumb__title">
+											Комплект постельного белья "Вишня" Бязь
+										</a>
+										<div class="card-thumb__list">
+											<ul>
+												<li>
+													<strong>Розмір:</strong>
+													<span>Двоспальний</span>
+												</li>
+												<li>
+													<strong>Кількість:</strong>
+													<span>1</span>
+												</li>
+												<li>
+													<strong>Колір:</strong>
+													<span>Білий</span>
+												</li>
+
+											</ul>
+										</div>
+										<div class="card-thumb__price">
+											<div class="price-block">
+												<div class="price-block__new">1245 грн</div>
+												<div class="price-block__promotion">-12%</div>
+												<div class="price-block__old">1450 грн</div>
+
+											</div>
+										</div>
+										<div class="card-thumb__footer">
+											<div class="quantity quantity-sm">
+												<button data-quantity-minus type="button" class="quantity__button quantity__button--minus"></button>
+												<div class="quantity__input">
+													<input data-quantity-value autocomplete="off" type="text" name="form[]" value="1">
+												</div>
+												<button data-quantity-plus type="button" class="quantity__button quantity__button--plus"></button>
+											</div>
+											<button type="button" class="button button-tertiary button-sm">
+												Видалити
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /.card-thumb -->
+						</div>
+
+						<div class="cart-widget-total cart-widget-total--pc">
+							<div class="cart-widget-total__body">
+								<div class="cart-widget-total__total-info">
+									<p>Підсумок
+									</p>
+									<span>1245 грн</span>
+								</div>
+								<div class="cart-widget-total__actions flex gap-2 flex-col items-center">
+									<button type="button" class="button button-primary button-lg">
+										Оформити замовлення
+									</button>
+									<button type="button" class="button button-secondary-beige button-lg">
+										Купити в 1 клік
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="cart-body__row cart-body-row">
+						<div class="cart-body-row__header">
+							<h4 class="offcanvas__title text-brown-900">Додати до замовлення <i class="icon-namearrow-diagonal"></i></h4>
+						</div>
+						<div class="cart-body-row__body cart-body-row-list gap-2">
+							<div class="card-thumb">
+								<div class="card-thumb__body">
+									<div class="card-thumb__image">
+										<img src="img/product/01.webp" alt="01">
+									</div>
+									<div class="card-thumb__content">
+										<a href="#" class="card-thumb__title">
+											Комплект постельного белья "Вишня" Бязь
+										</a>
+										<div class="card-thumb__price">
+											<div class="price-block">
+												<div class="price-block__new">1245 грн</div>
+												<div class="price-block__promotion">-12%</div>
+												<div class="price-block__old">1450 грн</div>
+
+											</div>
+										</div>
+										<div class="card-thumb__footer">
+
+											<button type="button" class="button button-secondary-beige button-sm">
+												До кошика
+												<i class="icon-namecart-outline text-lg"></i>
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /.card-thumb -->
+							<div class="card-thumb">
+								<div class="card-thumb__body">
+									<div class="card-thumb__image">
+										<img src="img/product/01.webp" alt="01">
+									</div>
+									<div class="card-thumb__content">
+										<a href="#" class="card-thumb__title">
+											Комплект постельного белья "Вишня" Бязь
+										</a>
+										<div class="card-thumb__price">
+											<div class="price-block">
+												<div class="price-block__new">1245 грн</div>
+												<div class="price-block__promotion">-12%</div>
+												<div class="price-block__old">1450 грн</div>
+
+											</div>
+										</div>
+										<div class="card-thumb__footer">
+
+											<button type="button" class="button button-secondary-beige button-sm">
+												До кошика
+												<i class="icon-namecart-outline text-lg"></i>
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /.card-thumb -->
+							<div class="card-thumb">
+								<div class="card-thumb__body">
+									<div class="card-thumb__image">
+										<img src="img/product/01.webp" alt="01">
+									</div>
+									<div class="card-thumb__content">
+										<a href="#" class="card-thumb__title">
+											Комплект постельного белья "Вишня" Бязь
+										</a>
+										<div class="card-thumb__price">
+											<div class="price-block">
+												<div class="price-block__new">1245 грн</div>
+												<div class="price-block__promotion">-12%</div>
+												<div class="price-block__old">1450 грн</div>
+
+											</div>
+										</div>
+										<div class="card-thumb__footer">
+
+											<button type="button" class="button button-secondary-beige button-sm">
+												До кошика
+												<i class="icon-namecart-outline text-lg"></i>
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- /.card-thumb -->
+						</div>
+					</div>
+
+					<div class="cart-widget-total cart-widget-total--mob">
+						<div class="cart-widget-total__body">
+							<div class="cart-widget-total__total-info">
+								<p>Підсумок
+								</p>
+								<span>1245 грн</span>
+							</div>
+							<div class="cart-widget-total__actions flex gap-2 flex-col items-center">
+								<button type="button" class="button button-primary button-lg">
+									Оформити замовлення
+								</button>
+								<button type="button" class="button button-secondary-beige button-lg">
+									Купити в 1 клік
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20250520135540"></script>
+</body>
+
+</html>

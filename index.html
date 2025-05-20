@@ -1,0 +1,1432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<style>
+		body {
+			opacity: 0;
+		}
+
+		.loaded body {
+			opacity: 1;
+		}
+	</style>
+
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="css/style.min.css?_v=20250520135540">
+
+
+	<script src="https://cdn.tailwindcss.com?_v=20250520135540"></script>
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header" data-scroll>
+			<div class="header__content">
+				<div class="header__top top-header">
+					<div class="header__container">
+						<div class="top-header__content">
+							<div class="header__menu menu">
+
+								<nav class="menu__body">
+									<div class="menu__header">
+										<div class="menu__logo">
+											<img src="img/logo-mob.svg" alt="logo">
+										</div>
+										<div class="menu__header-actions">
+											<div class="menu__lang lang-block">
+												<ul>
+													<li>
+														<a href="#" class="active">
+															UA
+														</a>
+													</li>
+													<li>
+														<a href="#">
+															EN
+														</a>
+													</li>
+												</ul>
+											</div>
+											<div class="menu__close">
+												<button type="button" class="menu__close-btn icon-menu">
+													<i class="icon-nameclose"></i>
+												</button>
+											</div>
+										</div>
+									</div>
+									<ul>
+										<li>
+											<a href="#about" class="menu__link">
+												Про нас
+											</a>
+										</li>
+										<li>
+											<a href="#payment" class="menu__link">
+												Способи оплати
+											</a>
+										</li>
+										<li>
+											<a href="#blog" class="menu__link">
+												Блог
+											</a>
+										</li>
+										<li>
+											<a href="#shops" class="menu__link">
+												Наші магазини
+											</a>
+										</li>
+										<li>
+											<a href="#contacts" class="menu__link">
+												Контакти
+											</a>
+										</li>
+										<li>
+											<a href="#return" class="menu__link">
+												Обмін і повернення
+											</a>
+										</li>
+									</ul>
+
+									<div class="menu__footer">
+										<div class="dropdown-wrapper header__tel">
+											<button data-dropdown-toggle="dropdownPhonesMob">
+												<span>38 (099) 970-60-00</span>
+											</button>
+
+											<div data-dropdown="dropdownPhonesMob" class="dropdown">
+												<div class="dropdown__content">
+													<div class="dropdown__phone-item text-md">
+														<i class="icon-namephone "></i>
+														<a href="tel:+380999999999">+380 99 999 99 99</a>
+													</div>
+													<div class="dropdown__phone-item text-md">
+														<i class="icon-namephone "></i>
+														<a href="tel:+380888888888">+380 88 888 88 88</a>
+													</div>
+													<div class="dropdown__phone-item text-md">
+														<i class="icon-namephone "></i>
+														<a href="https://wa.me/380777777777">+380 77 777 77 77</a>
+													</div>
+
+
+												</div>
+											</div>
+										</div>
+										<div class="socials-block">
+											<ul>
+												<li>
+													<a href="#">
+														<img src="img/icons/telegram.svg" alt="facebook">
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<img src="img/icons/viber.svg" alt="viber">
+													</a>
+												</li>
+												<li>
+													<a href="#">
+														<img src="img/icons/insta.svg" alt="insta">
+													</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</nav>
+							</div>
+							<div class="top-header__actions">
+								<div class="header__socials socials-block">
+									<ul>
+										<li>
+											<a href="#">
+												<img src="img/icons/telegram.svg" alt="facebook">
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="img/icons/viber.svg" alt="viber">
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="img/icons/insta.svg" alt="insta">
+											</a>
+										</li>
+									</ul>
+								</div>
+								<div class="header__lang lang-block">
+									<ul>
+										<li>
+											<a href="#" class="active">
+												UA
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												EN
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="header__bottom bottom-header">
+					<div class="header__container">
+						<div class="bottom-header__content">
+							<div class="bottom-header__left">
+								<div class="bottom-header__logo">
+									<a href="#">
+										<picture>
+											<source srcset="img/logo.svg" media="(min-width: 768px)" type="image/webp">
+											<img src="img/logo-mob.svg" alt="logo">
+										</picture>
+									</a>
+								</div>
+								<div class="bottom-header__catalog-btn">
+									<button class="button button-lg button-primary btn-catalog" data-custom-ripple="">
+										<i class="icon-namecatalog_line"></i>
+										Каталог
+									</button>
+								</div>
+							</div>
+							<div class="bottom-header__center">
+								<div class="bottom-header__search ">
+									<form action="#" class="form">
+										<div class="input-group input-group--sm input-group--icon">
+											<div class="input-group__icon">
+												<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+													<path d="M15.5002 15.4999L11.881 11.8808M11.881 11.8808C12.5001 11.2617 12.9912 10.5267 13.3262 9.71788C13.6612 8.90902 13.8337 8.0421 13.8337 7.16659C13.8337 6.29109 13.6612 5.42416 13.3262 4.61531C12.9912 3.80645 12.5001 3.0715 11.881 2.45243C11.2619 1.83335 10.527 1.34228 9.71813 1.00724C8.90927 0.672199 8.04234 0.499756 7.16684 0.499756C6.29134 0.499756 5.42441 0.672199 4.61555 1.00724C3.80669 1.34228 3.07174 1.83335 2.45267 2.45243C1.2024 3.7027 0.5 5.39844 0.5 7.16659C0.5 8.93475 1.2024 10.6305 2.45267 11.8808C3.70295 13.131 5.39868 13.8334 7.16684 13.8334C8.93499 13.8334 10.6307 13.131 11.881 11.8808Z" stroke="#B09888" stroke-linecap="round" stroke-linejoin="round" />
+												</svg>
+											</div>
+
+											<input type="text" id="search" class="input" placeholder=" ">
+											<label for="search" class="input-group__label label">
+												Пошук
+											</label>
+										</div>
+									</form>
+
+
+								</div>
+							</div>
+							<div class="bottom-header__right">
+								<div class="bottom-header header__tel dropdown-wrapper">
+									<button data-dropdown-toggle="dropdownPhones">
+										<span>38 (099) 970-60-00</span>
+										<i class="icon-namechevron-down"></i>
+									</button>
+
+									<div data-dropdown="dropdownPhones" class="dropdown">
+										<div class="dropdown__content">
+											<div class="dropdown__phone-item text-md">
+												<i class="icon-namephone "></i>
+												<a href="tel:+380999999999">+380 99 999 99 99</a>
+											</div>
+											<div class="dropdown__phone-item text-md">
+												<i class="icon-namephone "></i>
+												<a href="tel:+380888888888">+380 88 888 88 88</a>
+											</div>
+											<div class="dropdown__phone-item text-md">
+												<i class="icon-namephone "></i>
+												<a href="https://wa.me/380777777777">+380 77 777 77 77</a>
+											</div>
+
+
+										</div>
+									</div>
+								</div>
+								<div class="bottom-header__actions">
+									<ul>
+										<li>
+											<a href="#">
+												<i class="icon-nameperson"></i>
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<i class="icon-nameheart_line"></i>
+											</a>
+										</li>
+										<li>
+											<a href="#" data-offcanvas-trigger="#cartOffcanvas">
+												<i class="icon-namecart-outline"></i>
+											</a>
+										</li>
+									</ul>
+
+								</div>
+								<button type="button" class="menu__icon icon-menu"><span></span></button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="header-widget">
+			<div class="header-widget__content">
+				<ul>
+					<li>
+						<a href="#" class="btn-catalog">
+							<i class="icon-namecatalog_line"></i>
+							Каталог
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<i class="icon-nameheart_line"></i>
+							Вибране
+						</a>
+					</li>
+
+					<li>
+						<a href="tel:+380999999999">
+							<i class="icon-namephone_line"></i>
+							Подзвонити
+						</a>
+					</li>
+					<li>
+						<a href="#" data-offcanvas-trigger="#cartOffcanvas">
+							<i class="icon-namecart-outline"></i>
+							Кошик
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<!-- Многоуровневый каталог -->
+		<div class="catalog-menu">
+			<div class="catalog-menu__backdrop"></div>
+			<div class="catalog-menu__container">
+				<div class="catalog-menu__inner">
+					<div class="catalog-menu__header">
+						<div class="catalog-menu__title">Каталог</div>
+						<button type="button" class="catalog-menu__close">
+							<i class="icon-nameclose"></i>
+						</button>
+					</div>
+
+					<div class="catalog-menu__content">
+						<div class="catalog-menu__categories">
+							<ul class="catalog-menu__list">
+								<li class="catalog-menu__item" data-category="bedding">
+									<a href="#" class="catalog-menu__link" data-prevent-scroll>
+										Постельное белье
+										<i class="icon-namechevron-right"></i>
+									</a>
+									<!-- Мобильная подкатегория (коллапс) -->
+									<div class="catalog-menu__subcategory-mobile">
+										<div class="catalog-menu__subcategory-content">
+											<div class="catalog-menu__col">
+												<h4>Ткань</h4>
+												<ul>
+													<li><a href="#">Жаккард <span>(от 450 грн)</span></a></li>
+													<li><a href="#">Сатин <span>(от 450 грн)</span></a></li>
+													<li><a href="#">Ранфорс <span>(от 450 грн)</span></a></li>
+													<li><a href="#">Бязь <span>(от 450 грн)</span></a></li>
+													<li><a href="#">Страйп-сатин <span>(от 450 грн)</span></a></li>
+													<li><a href="#">Поликоттон <span>(от 450 грн)</span></a></li>
+												</ul>
+											</div>
+											<div class="catalog-menu__col">
+												<h4>Размер</h4>
+												<ul>
+													<li><a href="#">Двуспальный</a></li>
+													<li><a href="#">Евро</a></li>
+													<li><a href="#">Евро Макси (King Size)</a></li>
+													<li><a href="#">Младенцам / в кроватку</a></li>
+													<li><a href="#">Односпальный</a></li>
+													<li><a href="#">Полуторный</a></li>
+													<li><a href="#">Семейный</a></li>
+												</ul>
+											</div>
+											<div class="catalog-menu__col">
+												<h4>Популярные цвета</h4>
+												<ul>
+													<li><a href="#">Пудра</a></li>
+													<li><a href="#">Розовый</a></li>
+													<li><a href="#">Бежевый</a></li>
+													<li><a href="#">Серый</a></li>
+												</ul>
+											</div>
+											<div class="catalog-menu__col">
+												<h4>Особенности</h4>
+												<ul>
+													<li><a href="#">На резинке</a></li>
+													<li><a href="#">Зимнее</a></li>
+													<li><a href="#">Летнее</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="catalog-menu__item" data-category="children">
+									<a href="#" class="catalog-menu__link" data-prevent-scroll>
+										Для детей
+										<i class="icon-namechevron-right"></i>
+									</a>
+									<!-- Мобильная подкатегория (коллапс) -->
+									<div class="catalog-menu__subcategory-mobile">
+										<div class="catalog-menu__subcategory-content">
+											<div class="catalog-menu__col">
+												<h4>Категории</h4>
+												<ul>
+													<li><a href="#">Детское постельное</a></li>
+													<li><a href="#">Детские одеяла</a></li>
+													<li><a href="#">Детские подушки</a></li>
+													<li><a href="#">Пледы для детей</a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="catalog-menu__item" data-category="mattresses">
+									<a href="#" class="catalog-menu__link">
+										Матрасы
+										<i class="icon-namechevron-right"></i>
+									</a>
+									<!-- Мобильная подкатегория (коллапс) -->
+									<div class="catalog-menu__subcategory-mobile">
+										<div class="catalog-menu__subcategory-content">
+											<!-- Содержимое подкатегории -->
+										</div>
+									</div>
+								</li>
+								<li class="catalog-menu__item" data-category="bedspreads">
+									<a href="#" class="catalog-menu__link">
+										Пододеяльники
+										<i class="icon-namechevron-right"></i>
+									</a>
+								</li>
+								<li class="catalog-menu__item" data-category="sheets">
+									<a href="#" class="catalog-menu__link">
+										Простыни
+										<i class="icon-namechevron-right"></i>
+									</a>
+								</li>
+								<li class="catalog-menu__item" data-category="pillowcases">
+									<a href="#" class="catalog-menu__link">
+										Наволочки
+										<i class="icon-namechevron-right"></i>
+									</a>
+								</li>
+								<li class="catalog-menu__item" data-category="blankets">
+									<a href="#" class="catalog-menu__link">
+										Одеяла
+										<i class="icon-namechevron-right"></i>
+									</a>
+								</li>
+								<li class="catalog-menu__item" data-category="pillows">
+									<a href="#" class="catalog-menu__link">
+										Подушки
+										<i class="icon-namechevron-right"></i>
+									</a>
+								</li>
+								<li class="catalog-menu__item" data-category="plaids">
+									<a href="#" class="catalog-menu__link">
+										Пледы
+										<i class="icon-namechevron-right"></i>
+									</a>
+								</li>
+								<li class="catalog-menu__item" data-category="bedspreads">
+									<a href="#" class="catalog-menu__link">
+										Покрывала
+										<i class="icon-namechevron-right"></i>
+									</a>
+								</li>
+								<li class="catalog-menu__item" data-category="mattress-covers">
+									<a href="#" class="catalog-menu__link">
+										Наматрасники
+										<i class="icon-namechevron-right"></i>
+									</a>
+								</li>
+								<li class="catalog-menu__item" data-category="bathrobes">
+									<a href="#" class="catalog-menu__link">
+										Халаты
+										<i class="icon-namechevron-right"></i>
+									</a>
+								</li>
+								<li class="catalog-menu__item" data-category="towels">
+									<a href="#" class="catalog-menu__link">
+										Полотенца
+										<i class="icon-namechevron-right"></i>
+									</a>
+								</li>
+								<li class="catalog-menu__item" data-category="tablecloths">
+									<a href="#" class="catalog-menu__link">
+										Скатерти кухонные
+										<i class="icon-namechevron-right"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="catalog-menu__subcategories">
+							<!-- Содержимое подкатегорий для десктопа -->
+							<div class="catalog-menu__subcategory" data-category="bedding">
+								<div class="catalog-menu__back visible-mobile">
+									<button type="button">
+										<i class="icon-namechevron-left"></i>
+										Назад
+									</button>
+								</div>
+								<div class="catalog-menu__subcategory-header visible-mobile">
+									<h3>Постельное белье</h3>
+								</div>
+								<div class="catalog-menu__subcategory-content">
+									<div class="catalog-menu__col">
+										<h4>Ткань</h4>
+										<ul>
+											<li><a href="#">Жаккард <span>(от 450 грн)</span></a></li>
+											<li><a href="#">Сатин <span>(от 450 грн)</span></a></li>
+											<li><a href="#">Ранфорс <span>(от 450 грн)</span></a></li>
+											<li><a href="#">Бязь <span>(от 450 грн)</span></a></li>
+											<li><a href="#">Страйп-сатин <span>(от 450 грн)</span></a></li>
+											<li><a href="#">Поликоттон <span>(от 450 грн)</span></a></li>
+										</ul>
+									</div>
+									<div class="catalog-menu__col">
+										<h4>Размер</h4>
+										<ul>
+											<li><a href="#">Двуспальный</a></li>
+											<li><a href="#">Евро</a></li>
+											<li><a href="#">Евро Макси (King Size)</a></li>
+											<li><a href="#">Младенцам / в кроватку</a></li>
+											<li><a href="#">Односпальный</a></li>
+											<li><a href="#">Полуторный</a></li>
+											<li><a href="#">Семейный</a></li>
+										</ul>
+									</div>
+									<div class="catalog-menu__col">
+										<h4>Популярные цвета</h4>
+										<ul>
+											<li><a href="#">Пудра</a></li>
+											<li><a href="#">Розовый</a></li>
+											<li><a href="#">Бежевый</a></li>
+											<li><a href="#">Серый</a></li>
+										</ul>
+									</div>
+									<div class="catalog-menu__col">
+										<h4>Особенности</h4>
+										<ul>
+											<li><a href="#">На резинке</a></li>
+											<li><a href="#">Зимнее</a></li>
+											<li><a href="#">Летнее</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="catalog-menu__banner">
+									<div class="catalog-menu__banner-title">Детское постельное</div>
+									<a href="#" class="catalog-menu__banner-link">Перейти</a>
+								</div>
+							</div>
+
+							<!-- Пример для других категорий -->
+							<div class="catalog-menu__subcategory" data-category="children">
+								<div class="catalog-menu__back visible-mobile">
+									<button type="button">
+										<i class="icon-namechevron-left"></i>
+										Назад
+									</button>
+								</div>
+								<div class="catalog-menu__subcategory-header visible-mobile">
+									<h3>Для детей</h3>
+								</div>
+								<div class="catalog-menu__subcategory-content">
+									<div class="catalog-menu__col">
+										<h4>Категории</h4>
+										<ul>
+											<li><a href="#">Детское постельное</a></li>
+											<li><a href="#">Детские одеяла</a></li>
+											<li><a href="#">Детские подушки</a></li>
+											<li><a href="#">Пледы для детей</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+
+							<!-- Остальные подкатегории можно добавить аналогично -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<main class="page">
+			<section class="main-slider section-padding-y-40">
+				<div class="main-slider__container">
+					<div class="main-slider__body">
+						<div class="main-slider__slider swiper">
+							<div class="main-slider__wrapper swiper-wrapper">
+								<div class="main-slider__slide swiper-slide">
+									<img src="img/main-slider/banner.webp" alt="main-slider">
+								</div>
+								<div class="main-slider__slide swiper-slide">
+									<img src="img/main-slider/banner.webp" alt="main-slider">
+								</div>
+								<div class="main-slider__slide swiper-slide">
+									<img src="img/main-slider/banner.webp" alt="main-slider">
+								</div>
+								<div class="main-slider__slide swiper-slide">
+									<img src="img/main-slider/banner.webp" alt="main-slider">
+								</div>
+							</div>
+							<div class="main-slider__pagination slider-pagination-type-one flex items-center justify-center mt-5">
+								<div class="swiper-pagination"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /.main-slider -->
+
+			<section class="categories-main section-padding-y-40">
+				<div class="categories-main__container">
+					<div class="categories-main__content">
+						<div class="section-header">
+							<div class="section-header__left">
+								<h3 class="text-brown-900">Категорії</h3>
+							</div>
+						</div>
+						<div class="categories-main__body">
+							<a href="#" class="categories-main__item item-categories">
+								<div class="item-categories__body">
+									<div class="item-categories__image">
+										<img src="img/categories/01.webp" alt="category">
+									</div>
+									<div class="item-categories__content">
+										<div class="item-categories__title">
+											Акції
+											<i class="icon-namearrow-diagonal"></i>
+										</div>
+									</div>
+								</div>
+							</a>
+							<a href="#" class="categories-main__item item-categories">
+								<div class="item-categories__body">
+									<div class="item-categories__image">
+										<img src="img/categories/02.webp" alt="category">
+									</div>
+									<div class="item-categories__content">
+										<div class="item-categories__title">
+											Постільна білизна
+											<i class="icon-namearrow-diagonal"></i>
+										</div>
+									</div>
+								</div>
+							</a>
+							<a href="#" class="categories-main__item item-categories">
+								<div class="item-categories__body">
+									<div class="item-categories__image">
+										<img src="img/categories/03.webp" alt="category">
+									</div>
+									<div class="item-categories__content">
+										<div class="item-categories__title">
+											Подушки
+											<i class="icon-namearrow-diagonal"></i>
+										</div>
+									</div>
+								</div>
+							</a>
+							<a href="#" class="categories-main__item item-categories">
+								<div class="item-categories__body">
+									<div class="item-categories__image">
+										<img src="img/categories/04.webp" alt="category">
+									</div>
+									<div class="item-categories__content">
+										<div class="item-categories__title">
+											Ковдри
+											<i class="icon-namearrow-diagonal"></i>
+										</div>
+									</div>
+								</div>
+							</a>
+							<a href="#" class="categories-main__item item-categories">
+								<div class="item-categories__body">
+									<div class="item-categories__image">
+										<img src="img/categories/05.webp" alt="category">
+									</div>
+									<div class="item-categories__content">
+										<div class="item-categories__title">
+											Наматрацники
+											<i class="icon-namearrow-diagonal"></i>
+										</div>
+									</div>
+								</div>
+							</a>
+							<a href="#" class="categories-main__item item-categories">
+								<div class="item-categories__body">
+									<div class="item-categories__image">
+										<img src="img/categories/06.webp" alt="category">
+									</div>
+									<div class="item-categories__content">
+										<div class="item-categories__title">
+											Простирадла
+											<i class="icon-namearrow-diagonal"></i>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+
+			</section>
+			<!-- /.categories-main -->
+
+			<section class="promotional-offers section-padding-y-80">
+				<div class="promotional-offers__container">
+					<div class="promotional-offers__body">
+						<div class="section-header">
+							<div class="section-header__left">
+								<a href="#" class="text-brown-900 h3 link-arrow">Акційні пропозиції <i class="icon-namearrow-diagonal"></i></a>
+							</div>
+							<div class="section-header__right md:hidden">
+								<div class="flex items-center md:gap-3 gap-2">
+									<div class="slider-button-type-one swiper-button-prev">
+										<i class="icon-namearrow-left"></i>
+									</div>
+									<div class="slider-button-type-one swiper-button-next">
+										<i class="icon-namearrow-right"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="promotional-offers__content">
+							<div class="promotional-offers__slider swiper">
+								<div class="promotional-offers__wrapper swiper-wrapper">
+									<div class="promotional-offers__slide swiper-slide card-product">
+										<div class="card-product__body">
+											<div class="card-product__header">
+												<div class="card-product__actions">
+													<button type="button" class="button button-lg button-add-to-favorite">
+														<i class="icon-nameheart_line text-orange-500"></i>
+													</button>
+												</div>
+												<a href="#" class="card-product__image">
+													<img src="img/product/01.webp" alt="product">
+												</a>
+											</div>
+											<div class="card-product__content">
+
+												<a href="#" class="card-product__title text-brown-900 line-clamp-2">
+													Комплект постельного белья "Вишня" Бязь
+												</a>
+												<div class="card-product__price price-block">
+
+													<div class="price-block__new">1245 грн</div>
+													<div class="price-block__promotion">
+														-12%
+													</div>
+													<div class="price-block__old">1450 грн</div>
+												</div>
+												<div class="card-product__footer">
+													<button type="button" class="button button-md button-primary" data-custom-ripple>
+
+														<span>До кошика</span>
+														<i class="icon-namecart-outline"></i>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="promotional-offers__slide swiper-slide card-product">
+										<div class="card-product__body">
+											<div class="card-product__header">
+												<div class="card-product__actions">
+													<button type="button" class="button button-lg button-add-to-favorite">
+														<i class="icon-nameheart_line text-orange-500"></i>
+													</button>
+												</div>
+												<a href="#" class="card-product__image">
+													<img src="img/product/02.webp" alt="product">
+												</a>
+											</div>
+											<div class="card-product__content">
+
+												<a href="#" class="card-product__title text-brown-900 line-clamp-2">
+													Комплект постельного белья "Белый" Бязь
+												</a>
+												<div class="card-product__price price-block">
+													<div class="price-block__new">1245 грн</div>
+												</div>
+												<div class="card-product__footer">
+													<button type="button" class="button button-md button-primary" data-custom-ripple>
+														<span>До кошика</span>
+														<i class="icon-namecart-outline"></i>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="promotional-offers__slide swiper-slide card-product">
+										<div class="card-product__body">
+											<div class="card-product__header">
+												<div class="card-product__actions">
+													<button type="button" class="button button-lg button-add-to-favorite">
+														<i class="icon-nameheart_line text-orange-500"></i>
+													</button>
+												</div>
+												<a href="#" class="card-product__image">
+													<img src="img/product/03.webp" alt="product">
+												</a>
+											</div>
+											<div class="card-product__content">
+
+												<a href="#" class="card-product__title text-brown-900 line-clamp-2">
+													Комплект постельного белья "Белый" Бязь
+												</a>
+												<div class="card-product__price price-block">
+													<span>1245 грн</span>
+												</div>
+												<div class="card-product__footer">
+													<button type="button" class="button button-md button-primary" data-custom-ripple>
+														<span>До кошика</span>
+														<i class="icon-namecart-outline"></i>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="promotional-offers__slide swiper-slide card-product">
+										<div class="card-product__body">
+											<div class="card-product__header">
+												<div class="card-product__actions">
+													<button type="button" class="button button-lg button-add-to-favorite">
+														<i class="icon-nameheart_line text-orange-500"></i>
+													</button>
+												</div>
+												<a href="#" class="card-product__image">
+													<img src="img/product/04.webp" alt="product">
+												</a>
+											</div>
+											<div class="card-product__content">
+
+												<a href="#" class="card-product__title text-brown-900 line-clamp-2">
+													Комплект постельного белья "Белый" Бязь
+												</a>
+												<div class="card-product__price price-block">
+													<span>1245 грн</span>
+												</div>
+												<div class="card-product__footer">
+													<button type="button" class="button button-md button-primary" data-custom-ripple>
+														<span>До кошика</span>
+														<i class="icon-namecart-outline"></i>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="promotional-offers__slide swiper-slide card-product">
+										<div class="card-product__body">
+											<div class="card-product__header">
+												<div class="card-product__actions">
+													<button type="button" class="button button-lg button-add-to-favorite">
+														<i class="icon-nameheart_line text-orange-500"></i>
+													</button>
+												</div>
+												<a href="#" class="card-product__image">
+													<img src="img/product/05.webp" alt="product">
+												</a>
+											</div>
+											<div class="card-product__content">
+
+												<a href="#" class="card-product__title text-brown-900 line-clamp-2">
+													Комплект постельного белья "Белый" Бязь
+													Комплект постельного белья "Белый" Бязь
+													Комплект постельного белья "Белый" Бязь
+												</a>
+												<div class="card-product__price price-block">
+													<span>1245 грн</span>
+												</div>
+												<div class="card-product__footer">
+													<button type="button" class="button button-md button-primary" data-custom-ripple>
+														<span>До кошика</span>
+														<i class="icon-namecart-outline"></i>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="promotional-offers__slide swiper-slide card-product">
+										<div class="card-product__body">
+											<div class="card-product__header">
+												<div class="card-product__actions">
+													<button type="button" class="button button-lg button-add-to-favorite">
+														<i class="icon-nameheart_line text-orange-500"></i>
+													</button>
+												</div>
+												<a href="#" class="card-product__image">
+													<img src="img/product/05.webp" alt="product">
+												</a>
+											</div>
+											<div class="card-product__content">
+
+												<a href="#" class="card-product__title text-brown-900 line-clamp-2">
+													Комплект постельного белья "Белый" Бязь
+													Комплект постельного белья "Белый" Бязь
+													Комплект постельного белья "Белый" Бязь
+												</a>
+												<div class="card-product__price price-block">
+													<span>1245 грн</span>
+												</div>
+												<div class="card-product__footer">
+													<button type="button" class="button button-md button-primary" data-custom-ripple>
+														<span>До кошика</span>
+														<i class="icon-namecart-outline"></i>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="md:block hidden">
+									<div class="slider-button-type-one swiper-button-prev">
+										<i class="icon-namearrow-left"></i>
+									</div>
+									<div class="slider-button-type-one swiper-button-next">
+										<i class="icon-namearrow-right"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</section>
+			<!-- /.promotional-offers -->
+
+
+			<section class="why-us section-padding-y-80">
+				<div class="why-us__container">
+					<div class="why-us__content">
+						<div class="section-header">
+							<div class="section-header__left">
+								<h3 class="text-brown-900">Чому нас варто обрати?</h3>
+							</div>
+						</div>
+						<div class="why-us__body">
+							<div class="why-us__item item-why-us">
+								<div class="item-why-us__icon">
+									<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+										<path d="M56.0001 16L45.3334 24M18.6668 40L8.00009 48M56.1068 32.7547L57.7041 43.928C57.8185 44.7289 57.7493 45.5453 57.5016 46.3154C57.2539 47.0856 56.8342 47.7893 56.2744 48.3733C55.7146 48.9573 55.0292 49.4063 54.2702 49.6862C53.5112 49.9662 52.6984 50.0699 51.8934 49.9893L32.5334 48.0533C32.1805 48.018 31.825 48.018 31.4721 48.0533L12.1094 49.9893C11.3044 50.0699 10.4917 49.9662 9.73267 49.6862C8.97366 49.4063 8.28829 48.9573 7.72845 48.3733C7.1686 47.7893 6.74894 47.0856 6.50125 46.3154C6.25355 45.5453 6.18431 44.7289 6.29876 43.928L7.89609 32.7547C7.96764 32.2541 7.96764 31.7459 7.89609 31.2453L6.29876 20.072C6.18438 19.2714 6.25359 18.4552 6.50114 17.6853C6.74869 16.9154 7.1681 16.2118 7.72764 15.6279C8.28718 15.0439 8.97219 14.5949 9.73086 14.3147C10.4895 14.0345 11.302 13.9306 12.1068 14.0107L31.4694 15.9467C31.8223 15.9819 32.1779 15.9819 32.5308 15.9467L51.8934 14.0107C52.6984 13.9301 53.5112 14.0338 54.2702 14.3137C55.0292 14.5937 55.7146 15.0427 56.2744 15.6267C56.8342 16.2107 57.2539 16.9144 57.5016 17.6846C57.7493 18.4547 57.8185 19.2711 57.7041 20.072L56.1068 31.2453C56.0352 31.7459 56.0352 32.2541 56.1068 32.7547Z" stroke="#F0761F" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</div>
+								<div class="item-why-us__content">
+									<p>
+										<strong>Великий вибір</strong> сучасного і красивого текстилю для дому
+									</p>
+								</div>
+							</div>
+							<div class="why-us__item item-why-us">
+								<div class="item-why-us__icon">
+									<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+										<path d="M20.5073 26.44H43.494M20.5073 26.44H7.33398M20.5073 26.44L30.2407 53.2427M20.5073 26.44L26.9073 15.952L28.374 13.2533M43.494 26.44H56.6673M43.494 26.44L33.7607 53.2427M43.494 26.44L37.094 15.952L35.5847 13.2533M7.33398 26.44C7.33398 27.56 7.54465 28.68 7.96332 29.736C8.52865 31.1627 9.67532 32.4773 11.9633 35.104L21.2087 45.7067C24.934 49.9787 26.7953 52.1173 29.0033 52.9013C29.4104 53.0453 29.8229 53.1591 30.2407 53.2427M7.33398 26.44C7.33398 25.32 7.54465 24.2 7.96332 23.1413C8.52865 21.7147 9.67532 20.4027 11.9633 17.7733C13.2087 16.3493 13.83 15.6373 14.55 15.0853C15.6204 14.2695 16.8609 13.7053 18.1793 13.4347C19.07 13.2533 20.014 13.2533 21.9047 13.2533H28.374M30.2407 53.2427C31.4027 53.4726 32.5986 53.4726 33.7607 53.2427M28.374 13.2533H35.5847M56.6673 26.44C56.6673 27.56 56.4567 28.68 56.038 29.736C55.4727 31.1627 54.326 32.4773 52.038 35.104L42.7927 45.7067C39.0673 49.9787 37.206 52.1173 34.998 52.9013C34.5941 53.0442 34.1806 53.1583 33.7607 53.2427M56.6673 26.44C56.6673 25.32 56.4567 24.2 56.038 23.1413C55.4727 21.7147 54.326 20.4027 52.038 17.7733C50.7927 16.3493 50.1713 15.6373 49.4513 15.0853C48.3809 14.2695 47.1404 13.7053 45.822 13.4347C44.9313 13.2533 43.9873 13.2533 42.0967 13.2533H35.5847" stroke="#F0761F" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</div>
+								<div class="item-why-us__content">
+									<p>
+										Завжди <strong>бездоганна якість</strong>, гарантія гіпоалергенності
+									</p>
+								</div>
+							</div>
+							<div class="why-us__item item-why-us">
+								<div class="item-why-us__icon">
+									<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+										<path d="M26.666 45.3333L37.3327 34.6667M31.9993 58.6667C37.6573 58.6667 43.0835 56.4191 47.0843 52.4183C51.0851 48.4175 53.3327 42.9913 53.3327 37.3333C53.3327 21.3333 31.9993 5.33333 31.9993 5.33333C30.9647 11.9653 29.9513 15.5253 26.666 21.3333C23.466 19.8533 22.666 18.6667 21.3327 15.3333C15.9993 21.3333 10.666 29.3333 10.666 37.3333C10.666 42.9913 12.9136 48.4175 16.9144 52.4183C20.9152 56.4191 26.3414 58.6667 31.9993 58.6667Z" stroke="#F0761F" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M37.3105 45.3333H37.3345" stroke="#F0761F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M26.666 34.6667H26.69" stroke="#F0761F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</div>
+								<div class="item-why-us__content">
+									<p>
+										<strong>Низькі ціни</strong> та система лояльності для постійних клієнтів
+									</p>
+								</div>
+							</div>
+							<div class="why-us__item item-why-us">
+								<div class="item-why-us__icon">
+									<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+										<path d="M26.6672 58.6667C31.2922 58.6654 35.7915 57.1612 39.4873 54.3806C43.1831 51.6 45.8752 47.6936 47.1579 43.25C48.4406 38.8064 48.2445 34.0664 46.5992 29.7439C44.9538 25.4215 41.9483 21.7508 38.0355 19.285C34.1226 16.8191 29.5144 15.6916 24.9051 16.0724C20.2958 16.4532 15.935 18.3216 12.4799 21.3961C9.02476 24.4707 6.66236 28.5848 5.74862 33.1186C4.83489 37.6525 5.41932 42.3605 7.41385 46.5333C7.87252 47.4933 8.03252 48.576 7.76052 49.6L6.88585 52.872C6.72871 53.4594 6.72885 54.0779 6.88627 54.6653C7.04368 55.2526 7.35283 55.7883 7.78269 56.2184C8.21255 56.6485 8.74798 56.958 9.33526 57.1158C9.92253 57.2736 10.541 57.2741 11.1285 57.1173L14.4005 56.24C15.4314 55.9863 16.519 56.1093 17.4672 56.5867C20.2539 57.92 23.3739 58.6667 26.6699 58.6667H26.6672Z" stroke="#F0761F" />
+										<path d="M48.0006 38.672L48.5286 38.44C49.494 38 50.5766 37.8347 51.6033 38.1093L52.8726 38.448C53.4601 38.6051 54.0785 38.605 54.6659 38.4476C55.2533 38.2902 55.7889 37.981 56.219 37.5512C56.6492 37.1213 56.9587 36.5859 57.1164 35.9986C57.2742 35.4113 57.2748 34.7929 57.118 34.2053L56.7767 32.936C56.502 31.9093 56.67 30.8267 57.11 29.8613C58.0208 27.7749 58.5118 25.5295 58.5549 23.2533C58.5979 20.9771 58.1923 18.7147 57.361 16.5953C56.5297 14.4759 55.2891 12.541 53.7101 10.901C52.131 9.26107 50.2444 7.94818 48.158 7.03733C46.0715 6.12648 43.8261 5.63551 41.5499 5.59244C39.2738 5.54938 37.0114 5.95506 34.892 6.78633C32.7726 7.6176 30.8376 8.85818 29.1977 10.4372C27.5577 12.0163 26.2448 13.9029 25.334 15.9893" stroke="#F0761F" />
+										<path d="M17.3828 37.3333H17.4095M26.6921 37.3333H26.7161M36.0015 37.3333H36.0255" stroke="#F0761F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</div>
+								<div class="item-why-us__content">
+									<p>
+										<strong>Консультуємо</strong> з будь-якого питання, допомагаємо визначитися з товаром
+									</p>
+								</div>
+							</div>
+							<div class="why-us__item item-why-us">
+								<div class="item-why-us__icon">
+									<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+										<path d="M50.6667 21.3333H13.3333C10.3878 21.3333 8 23.7211 8 26.6667V53.3333C8 56.2788 10.3878 58.6667 13.3333 58.6667H50.6667C53.6122 58.6667 56 56.2788 56 53.3333V26.6667C56 23.7211 53.6122 21.3333 50.6667 21.3333Z" stroke="#F0761F" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M32 13.3333C32 11.7511 31.5308 10.2044 30.6518 8.88877C29.7727 7.57318 28.5233 6.5478 27.0615 5.9423C25.5997 5.33679 23.9911 5.17837 22.4393 5.48705C20.8874 5.79573 19.462 6.55766 18.3431 7.67648C17.2243 8.7953 16.4624 10.2208 16.1537 11.7726C15.845 13.3245 16.0035 14.933 16.609 16.3948C17.2145 17.8566 18.2398 19.106 19.5554 19.9851C20.871 20.8641 22.4177 21.3333 24 21.3333M32 13.3333C32 11.7511 32.4692 10.2044 33.3482 8.88877C34.2273 7.57318 35.4767 6.5478 36.9385 5.9423C38.4003 5.33679 40.0089 5.17837 41.5607 5.48705C43.1126 5.79573 44.538 6.55766 45.6569 7.67648C46.7757 8.7953 47.5376 10.2208 47.8463 11.7726C48.155 13.3245 47.9965 14.933 47.391 16.3948C46.7855 17.8566 45.7602 19.106 44.4446 19.9851C43.129 20.8641 41.5823 21.3333 40 21.3333M32 13.3333V58.6667M56 40H8" stroke="#F0761F" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</div>
+								<div class="item-why-us__content">
+									<p>
+										Даруємо приємні <strong>бонуси</strong> - на друге замовлення знижка до 100 гривень
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /.why-us -->
+
+			<section class="main-banner-content">
+				<div class="main-banner-content__image">
+					<img src="img/main-banner/banner-01.webp" alt="banner">
+				</div>
+				<div class="main-banner-content__body">
+					<div class="main-banner-content__container">
+						<div class="main-banner-content__content">
+							<h2 class="main-banner-content__title h1">
+								Найкаращі ціни для оптових покупців
+							</h2>
+							<div class="main-banner-content__actions">
+								<a href="#" class="button button-secondary button-lg" data-custom-ripple>
+									Запросити оптовий прайс
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /.main-banner-content -->
+			<section class="hots-sales section-padding-y-80">
+				<div class="hots-sales__container">
+					<div class="hots-sales__body">
+						<div class="section-header">
+							<div class="section-header__left">
+								<a href="#" class="text-brown-900 h3 link-arrow">Топ продажів <i class="icon-namearrow-diagonal"></i></a>
+							</div>
+							<div class="section-header__right md:hidden">
+								<div class="flex items-center md:gap-3 gap-2">
+									<div class="slider-button-type-one swiper-button-prev">
+										<i class="icon-namearrow-left"></i>
+									</div>
+									<div class="slider-button-type-one swiper-button-next">
+										<i class="icon-namearrow-right"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="hots-sales__content">
+							<div class="hots-sales__slider swiper">
+								<div class="hots-sales__wrapper swiper-wrapper">
+									<div class="hots-sales__slide swiper-slide card-product">
+										<div class="card-product__body">
+											<div class="card-product__header">
+												<div class="card-product__actions">
+													<button type="button" class="button button-lg button-add-to-favorite">
+														<i class="icon-nameheart_line text-orange-500"></i>
+													</button>
+												</div>
+												<a href="#" class="card-product__image">
+													<img src="img/product/01.webp" alt="product">
+												</a>
+											</div>
+											<div class="card-product__content">
+
+												<a href="#" class="card-product__title text-brown-900 line-clamp-2">
+													Комплект постельного белья "Вишня" Бязь
+												</a>
+												<div class="card-product__price price-block">
+
+													<div class="price-block__new">1245 грн</div>
+													<div class="price-block__promotion">
+														-12%
+													</div>
+													<div class="price-block__old">1450 грн</div>
+												</div>
+												<div class="card-product__footer">
+													<button type="button" class="button button-md button-primary" data-custom-ripple>
+
+														<span>До кошика</span>
+														<i class="icon-namecart-outline"></i>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="hots-sales__slide swiper-slide card-product">
+										<div class="card-product__body">
+											<div class="card-product__header">
+												<div class="card-product__actions">
+													<button type="button" class="button button-lg button-add-to-favorite">
+														<i class="icon-nameheart_line text-orange-500"></i>
+													</button>
+												</div>
+												<a href="#" class="card-product__image">
+													<img src="img/product/02.webp" alt="product">
+												</a>
+											</div>
+											<div class="card-product__content">
+
+												<a href="#" class="card-product__title text-brown-900 line-clamp-2">
+													Комплект постельного белья "Белый" Бязь
+												</a>
+												<div class="card-product__price price-block">
+													<div class="price-block__new">1245 грн</div>
+												</div>
+												<div class="card-product__footer">
+													<button type="button" class="button button-md button-primary" data-custom-ripple>
+														<span>До кошика</span>
+														<i class="icon-namecart-outline"></i>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="hots-sales__slide swiper-slide card-product">
+										<div class="card-product__body">
+											<div class="card-product__header">
+												<div class="card-product__actions">
+													<button type="button" class="button button-lg button-add-to-favorite">
+														<i class="icon-nameheart_line text-orange-500"></i>
+													</button>
+												</div>
+												<a href="#" class="card-product__image">
+													<img src="img/product/03.webp" alt="product">
+												</a>
+											</div>
+											<div class="card-product__content">
+
+												<a href="#" class="card-product__title text-brown-900 line-clamp-2">
+													Комплект постельного белья "Белый" Бязь
+												</a>
+												<div class="card-product__price price-block">
+													<span>1245 грн</span>
+												</div>
+												<div class="card-product__footer">
+													<button type="button" class="button button-md button-primary" data-custom-ripple>
+														<span>До кошика</span>
+														<i class="icon-namecart-outline"></i>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="hots-sales__slide swiper-slide card-product">
+										<div class="card-product__body">
+											<div class="card-product__header">
+												<div class="card-product__actions">
+													<button type="button" class="button button-lg button-add-to-favorite">
+														<i class="icon-nameheart_line text-orange-500"></i>
+													</button>
+												</div>
+												<a href="#" class="card-product__image">
+													<img src="img/product/04.webp" alt="product">
+												</a>
+											</div>
+											<div class="card-product__content">
+
+												<a href="#" class="card-product__title text-brown-900 line-clamp-2">
+													Комплект постельного белья "Белый" Бязь
+												</a>
+												<div class="card-product__price price-block">
+													<span>1245 грн</span>
+												</div>
+												<div class="card-product__footer">
+													<button type="button" class="button button-md button-primary" data-custom-ripple>
+														<span>До кошика</span>
+														<i class="icon-namecart-outline"></i>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="hots-sales__slide swiper-slide card-product">
+										<div class="card-product__body">
+											<div class="card-product__header">
+												<div class="card-product__actions">
+													<button type="button" class="button button-lg button-add-to-favorite">
+														<i class="icon-nameheart_line text-orange-500"></i>
+													</button>
+												</div>
+												<a href="#" class="card-product__image">
+													<img src="img/product/05.webp" alt="product">
+												</a>
+											</div>
+											<div class="card-product__content">
+
+												<a href="#" class="card-product__title text-brown-900 line-clamp-2">
+													Комплект постельного белья "Белый" Бязь
+													Комплект постельного белья "Белый" Бязь
+													Комплект постельного белья "Белый" Бязь
+												</a>
+												<div class="card-product__price price-block">
+													<span>1245 грн</span>
+												</div>
+												<div class="card-product__footer">
+													<button type="button" class="button button-md button-primary" data-custom-ripple>
+														<span>До кошика</span>
+														<i class="icon-namecart-outline"></i>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="hots-sales__slide swiper-slide card-product">
+										<div class="card-product__body">
+											<div class="card-product__header">
+												<div class="card-product__actions">
+													<button type="button" class="button button-lg button-add-to-favorite">
+														<i class="icon-nameheart_line text-orange-500"></i>
+													</button>
+												</div>
+												<a href="#" class="card-product__image">
+													<img src="img/product/05.webp" alt="product">
+												</a>
+											</div>
+											<div class="card-product__content">
+
+												<a href="#" class="card-product__title text-brown-900 line-clamp-2">
+													Комплект постельного белья "Белый" Бязь
+													Комплект постельного белья "Белый" Бязь
+													Комплект постельного белья "Белый" Бязь
+												</a>
+												<div class="card-product__price price-block">
+													<span>1245 грн</span>
+												</div>
+												<div class="card-product__footer">
+													<button type="button" class="button button-md button-primary" data-custom-ripple>
+														<span>До кошика</span>
+														<i class="icon-namecart-outline"></i>
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="md:block hidden">
+									<div class="slider-button-type-one swiper-button-prev">
+										<i class="icon-namearrow-left"></i>
+									</div>
+									<div class="slider-button-type-one swiper-button-next">
+										<i class="icon-namearrow-right"></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</section>
+			<!-- /.hots-sales -->
+			<section class="main-banner-content">
+				<div class="main-banner-content__image">
+					<picture>
+						<source srcset="img/main-banner/banner-02.webp" media="(min-width: 768px)" type="image/webp">
+						<img src="img/main-banner/banner-02-mob.webp" alt="banner">
+					</picture>
+				</div>
+				<div class="main-banner-content__body">
+					<div class="main-banner-content__container">
+						<div class="main-banner-content__content">
+							<h2 class="main-banner-content__title h1">
+								Солодкі сни для найменших
+							</h2>
+							<p class="main-banner-content__description">
+								Гіпоалергенні тканини, яскраві дизайни та м'якість, яку люблять діти. Подбайте про комфорт і затишок вашого малюка
+							</p>
+							<div class="main-banner-content__actions">
+								<a href="#" class="button button-secondary button-lg" data-custom-ripple>
+									Обрати постіль для дитини
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /.main-banner-content -->
+
+
+			<section class="seo-section section-padding-y-80">
+				<div class="seo-section__container">
+					<div class="seo-section__content">
+						<div data-showmore="200" class="seo-section-content">
+							<div data-showmore-content="250" class="seo-section-content__content">
+								<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+									<div class="seo-section-content__item">
+										<h5>Інтернет-магазин постільної білизни Narnia – якісний текстиль для вашого дому</h5>
+										<p>
+											Текстильні вироби створюють затишок в домі, надають йому індивідуальності та унікальності. Вдало підібраний текстиль також буде милувати погляд господарів та дарувати радість від його використання.
+
+
+
+										</p>
+										<p>
+											Інтернет-магазин Narnia пропонує широкий вибір якісної, стильної та комфортної постільної білизни, яка стане гідним доповненням до вашого інтер’єру.
+										</p>
+										<p>
+											В різноманітті тканин, кольорів та дизайнерських рішень наших виробів, безсумнівно, кожен зможе знайти те, що буде відповідати саме його відчуттю прекрасного.
+										</p>
+										<p>
+											Щоб замовити товар, необхідно залишити заявку на сайті. Купити недорого якісну постільну білизну цілком реально, адже Narnia являється виробником, і реалізовує товари без необґрунтованих націнок.
+										</p>
+									</div>
+									<div class="seo-section-content__item">
+										<h5>Narnia – ідеальна постільна білизна для дорослих та дітей</h5>
+										<p>
+											Всі запропоновані нами товари мають високу якість та бездоганне виконання. 
+
+
+
+
+
+										</p>
+										<p>
+											Ми - безпосередній український виробник постільної білизни, тому впевнені в якості кожного свого виробу! 
+										</p>
+										<p>
+											Асортимент нашого магазину включає:
+										</p>
+										<ul>
+											<li>
+												постільну білизну з сатину, бязі, полікоттону, страйп-сатину.
+											</li>
+											<li>
+												покривала, затишні пледи із вовни та мікрофібри.
+											</li>
+											<li>
+												кухонні, лазневі рушники.
+											</li>
+										</ul>
+										<p>
+											Ми пропонуємо постільну білизну найрізноманітніших кольорів та дизайну - як однотонну класику так і  яскраву постіль зі стильним принтом. 
+										</p>
+										<p>
+											Нам є що запропонувати і маленьким покупцям – нашу дитячу постіль з зображенням тварин, героїв мультфільмів, казок та модних у дитячому середовищі сюжетів, яка неодмінно прийде до смаку як хлопчикам, так і дівчаткам!
+										</p>
+									</div>
+								</div>
+
+							</div>
+							<button hidden data-showmore-button type="button" class="seo-section-content__more"><span>Показати ще</span><span>Сховати</span><i class="icon-namechevron-down"></i></button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /.seo-section -->
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__content">
+					<div class="footer__column">
+						<div class="footer__logo">
+							<a href="/">
+								<img src="img/logo.svg" alt="Narnia">
+							</a>
+
+						</div>
+						<div class="sm:block hidden">
+							<div class="footer__socials socials-block">
+								<ul>
+									<li>
+										<a href="#">
+											<img src="img/icons/telegram.svg" alt="facebook">
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="img/icons/viber.svg" alt="viber">
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<img src="img/icons/insta.svg" alt="insta">
+										</a>
+									</li>
+								</ul>
+							</div>
+							<div class="footer__copyright">© Narnia 2024</div>
+						</div>
+					</div>
+
+					<div class="footer__column">
+						<div class="footer__menu-title">Наш магазин</div>
+						<ul class="footer__menu-list">
+							<li><a href="#">Обмін і повернення</a></li>
+							<li><a href="#">Про нас</a></li>
+							<li><a href="#">Оплата і доставка</a></li>
+							<li><a href="#">Постійна знижка від виробника</a></li>
+						</ul>
+					</div>
+					<div class="footer__column">
+						<div class="footer__menu-title">Контакти</div>
+						<ul class="footer__menu-list footer__contacts">
+							<li><a href="tel:+380992671031">(099) 267-10-31</a></li>
+							<li><a href="tel:+380989540127">(098) 954-01-27</a></li>
+							<li><a href="mailto:narniatextile@gmail.com">narniatextile@gmail.com</a></li>
+						</ul>
+					</div>
+					<div class="footer__column">
+						<div class="footer__menu-title">Підпишіться на розсилку</div>
+						<form class="footer__subscribe-form">
+							<div class="input-group input-group--sm">
+
+
+								<input type="text" id="search" class="input !bg-transparent" placeholder=" ">
+								<label for="search" class="input-group__label label">
+									Email
+								</label>
+							</div>
+							<button type="submit" class="button button-secondary-white button-lg">Підписатись</button>
+						</form>
+					</div>
+					<div class="footer__column sm:hidden">
+						<div class="footer__socials socials-block">
+							<ul>
+								<li>
+									<a href="#">
+										<img src="img/icons/telegram.svg" alt="facebook">
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="img/icons/viber.svg" alt="viber">
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="img/icons/insta.svg" alt="insta">
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__copyright">© Narnia 2024</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20250520135540"></script>
+</body>
+
+</html>

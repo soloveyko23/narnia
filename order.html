@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<style>
+		body {
+			opacity: 0;
+		}
+
+		.loaded body {
+			opacity: 1;
+		}
+	</style>
+
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="css/style.min.css?_v=20250520135540">
+
+
+	<script src="https://cdn.tailwindcss.com?_v=20250520135540"></script>
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header header-relative">
+			<div class="header__content">
+
+
+				<div class="header__bottom bottom-header">
+					<div class="header__container">
+						<div class="bottom-header__content">
+							<div class="bottom-header__left">
+								<div class="bottom-header__logo">
+									<a href="#">
+										<picture>
+											<source srcset="img/logo.svg" media="(min-width: 768px)" type="image/webp">
+											<img src="img/logo-mob.svg" alt="logo">
+										</picture>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="order-page py-4">
+				<div class="order-page__container">
+					<div class="order-page__content">
+						<div class="order-page__header mb-4">
+							<h1 class="order-page__title h3 text-brown-900 font-medium">
+								Оформлення замовлення
+							</h1>
+						</div>
+						<div class="order-page-body order-page-body-column">
+							<div class="order-page__left flex flex-col gap-2">
+								<div class="order-page-widget">
+									<div class="order-page-widget__header">
+										<div class="order-page-widget__title text-brown-900 font-medium">
+											Контактні дані отримувача
+										</div>
+										<div class="order-page-widget__actions">
+											<a href="#" class="order-page-widget__actions-item link-secondary">
+												<i class="icon-namelog-out"></i>
+												Оформити замовлення як гість
+											</a>
+										</div>
+									</div>
+									<div class="order-page-widget__body">
+										<div class="order-page-widget__line">
+											<div class="input-group input-group--sm">
+
+												<input type="text" id="search" class="input input-phone" placeholder=" ">
+												<label for="search" class="input-group__label label">
+													Номер телефону
+												</label>
+											</div>
+										</div>
+										<div class="order-page-widget__line">
+											<div class="input-group input-group--sm">
+
+												<input type="text" id="search" class="input" placeholder=" ">
+												<label for="search" class="input-group__label label">
+													Електронна адреса
+												</label>
+											</div>
+										</div>
+										<div class="order-page-widget__line">
+											<div class="input-group input-group--sm">
+
+												<input type="text" id="search" class="input input-text" placeholder=" ">
+												<label for="search" class="input-group__label label">
+													Імʼя та прізвище
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="order-page-widget">
+									<div class="order-page-widget__header">
+										<div class="order-page-widget__title text-brown-900 font-medium">
+											Доставка
+										</div>
+										<div class="order-page-widget__actions">
+											<p class="text-xs text-brown-300">
+												За тарифами перевізника
+											</p>
+										</div>
+									</div>
+									<div class="order-page-widget__body">
+										<div class="order-page-widget__line">
+											<div class="options gap-3">
+												<div class="options__item">
+													<input id="o_1" class="options__input" data-content="content-1" checked type="radio" value="1" name="option">
+													<label for="o_1" class="options__label">
+														<span class="options__text">Самовивіз з відділення Нової Пошти</span>
+													</label>
+
+													<div class="options-content mt-3 ps-6 flex flex-col gap-3" data-one-select id="content-1">
+														<div class="options-content__line w-100">
+															<select name="form[]" data-class-modif="form">
+																<option value="1" selected>Введіть місто</option>
+																<option value="2">Київ</option>
+																<option value="3">Львів</option>
+																<option value="4">Харків</option>
+																<option value="5">Одеса</option>
+																<option value="6">Дніпро</option>
+															</select>
+														</div>
+														<div class="options-content__line w-100">
+															<select name="form[]" data-class-modif="form">
+																<option value="1" selected>Виберіть відділення</option>
+																<option value="2">Відділення №1</option>
+																<option value="3">Відділення №2</option>
+																<option value="4">Відділення №3</option>
+																<option value="5">Відділення №4</option>
+															</select>
+														</div>
+													</div>
+												</div>
+												<div class="options__item">
+													<input id="o_2" class="options__input" data-content="content-2" type="radio" value="2" name="option">
+													<label for="o_2" class="options__label"><span class="options__text">Кур'єр Нової Пошти</span></label>
+
+													<div class="options-content mt-3 ps-6 flex flex-col gap-3" data-one-select id="content-2">
+														<div class="options-content__line w-100">
+															<select name="form[]" data-class-modif="form">
+																<option value="1" selected>Введіть місто</option>
+																<option value="2">Київ</option>
+																<option value="3">Львів</option>
+																<option value="4">Харків</option>
+																<option value="5">Одеса</option>
+																<option value="6">Дніпро</option>
+															</select>
+														</div>
+														<div class="options-content__line w-100">
+															<div class="input-group input-group--sm">
+																<input type="text" id="address" class="input" placeholder=" ">
+																<label for="address" class="input-group__label label">
+																	Адреса доставки
+																</label>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="options__item">
+													<input id="o_3" class="options__input" data-content="content-3" type="radio" value="3" name="option">
+													<label for="o_3" class="options__label"><span class="options__text">Укрпошта</span></label>
+
+													<div class="options-content mt-3 ps-6 flex flex-col gap-3" data-one-select id="content-3">
+														<div class="options-content__line w-100">
+															<select name="form[]" data-class-modif="form">
+																<option value="1" selected>Введіть місто</option>
+																<option value="2">Київ</option>
+																<option value="3">Львів</option>
+																<option value="4">Харків</option>
+																<option value="5">Одеса</option>
+																<option value="6">Дніпро</option>
+															</select>
+														</div>
+														<div class="options-content__line w-100">
+															<select name="form[]" data-class-modif="form">
+																<option value="1" selected>Виберіть відділення</option>
+																<option value="2">Відділення №1</option>
+																<option value="3">Відділення №2</option>
+																<option value="4">Відділення №3</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+
+								<div class="order-page-widget">
+									<div class="order-page-widget__header">
+										<div class="order-page-widget__title text-brown-900 font-medium">
+											Оплата
+										</div>
+									</div>
+									<div class="order-page-widget__body">
+										<div class="order-page-widget__line">
+											<div class="options gap-3">
+												<div class="options__item">
+													<input id="pay_1" class="options__input" data-content="pay-content-1" checked type="radio" value="1" name="payment">
+													<label for="pay_1" class="options__label">
+														<span class="options__text">Оплата при отриманні</span>
+													</label>
+												</div>
+												<div class="options__item">
+													<input id="pay_2" class="options__input" data-content="pay-content-2" type="radio" value="2" name="payment">
+													<label for="pay_2" class="options__label">
+														<span class="options__text">Повна передоплата</span>
+													</label>
+												</div>
+												<div class="options__item">
+													<input id="pay_3" class="options__input" data-content="pay-content-3" type="radio" value="3" name="payment">
+													<label for="pay_3" class="options__label">
+														<span class="options__text">Розстрочка</span>
+													</label>
+
+													<div class="options-content mt-3 ps-6 flex flex-col gap-3" data-one-select id="pay-content-3">
+														<div class="options-content__line w-100">
+															<select name="form[]" data-class-modif="form">
+																<option value="1" selected>Виберіть банк</option>
+																<option value="2">ПриватБанк</option>
+																<option value="3">Монобанк</option>
+																<option value="4">Укрсиббанк</option>
+															</select>
+														</div>
+														<div class="options-content__line w-100">
+															<select name="form[]" data-class-modif="form">
+																<option value="1" selected>Строк розстрочки</option>
+																<option value="2">3 місяці</option>
+																<option value="3">6 місяців</option>
+																<option value="4">12 місяців</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="order-page-widget">
+									<div class="order-page-widget__header">
+										<div class="order-page-widget__title text-brown-900 font-medium">
+											Коментар до замовлення
+										</div>
+									</div>
+									<div class="order-page-widget__body">
+										<div class="order-page-widget__line">
+											<div class="input-group">
+												<textarea id="comment" class="input" rows="4" placeholder=" Ваш коментар до замовлення"></textarea>
+
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="order-page__right">
+								<div class="order-page-widget order-page-widget--products">
+									<div class="order-page-widget__header">
+										<div class="order-page-widget__title text-brown-900 font-medium">
+											Ваше замовлення
+										</div>
+									</div>
+									<div class="order-page-widget__body">
+										<div class="order-summary flex flex-col gap-6">
+											<div class="order-summary__items">
+												<div data-showmore-item="" class="block">
+													<div data-showmore-item-content="1" class="block__content">
+														<ul>
+															<li class="card-thumb">
+																<div class="card-thumb__body">
+																	<div class="card-thumb__image">
+																		<img src="img/product/01.webp" alt="01">
+																	</div>
+																	<div class="card-thumb__content">
+																		<a href="#" class="card-thumb__title">
+																			Комплект постельного белья "Вишня" Бязь
+																		</a>
+																		<div class="card-thumb__list">
+																			<ul>
+																				<li>
+																					<strong>Розмір:</strong>
+																					<span>Двоспальний</span>
+																				</li>
+																				<li>
+																					<strong>Кількість:</strong>
+																					<span>1</span>
+																				</li>
+																				<li>
+																					<strong>Колір:</strong>
+																					<span>Білий</span>
+																				</li>
+
+																			</ul>
+																		</div>
+																		<div class="card-thumb__price">
+																			<div class="price-block">
+																				<div class="price-block__new">1245 грн</div>
+																				<div class="price-block__promotion">-12%</div>
+																				<div class="price-block__old">1450 грн</div>
+
+																			</div>
+																		</div>
+
+																	</div>
+																</div>
+															</li>
+															<li class="card-thumb">
+																<div class="card-thumb__body">
+																	<div class="card-thumb__image">
+																		<img src="img/product/01.webp" alt="01">
+																	</div>
+																	<div class="card-thumb__content">
+																		<a href="#" class="card-thumb__title">
+																			Комплект постельного белья "Вишня" Бязь
+																		</a>
+																		<div class="card-thumb__list">
+																			<ul>
+																				<li>
+																					<strong>Розмір:</strong>
+																					<span>Двоспальний</span>
+																				</li>
+																				<li>
+																					<strong>Кількість:</strong>
+																					<span>1</span>
+																				</li>
+																				<li>
+																					<strong>Колір:</strong>
+																					<span>Білий</span>
+																				</li>
+
+																			</ul>
+																		</div>
+																		<div class="card-thumb__price">
+																			<div class="price-block">
+																				<div class="price-block__new">1245 грн</div>
+																				<div class="price-block__promotion">-12%</div>
+																				<div class="price-block__old">1450 грн</div>
+
+																			</div>
+																		</div>
+
+																	</div>
+																</div>
+															</li>
+															<li class="card-thumb">
+																<div class="card-thumb__body">
+																	<div class="card-thumb__image">
+																		<img src="img/product/01.webp" alt="01">
+																	</div>
+																	<div class="card-thumb__content">
+																		<a href="#" class="card-thumb__title">
+																			Комплект постельного белья "Вишня" Бязь
+																		</a>
+																		<div class="card-thumb__list">
+																			<ul>
+																				<li>
+																					<strong>Розмір:</strong>
+																					<span>Двоспальний</span>
+																				</li>
+																				<li>
+																					<strong>Кількість:</strong>
+																					<span>1</span>
+																				</li>
+																				<li>
+																					<strong>Колір:</strong>
+																					<span>Білий</span>
+																				</li>
+
+																			</ul>
+																		</div>
+																		<div class="card-thumb__price">
+																			<div class="price-block">
+																				<div class="price-block__new">1245 грн</div>
+																				<div class="price-block__promotion">-12%</div>
+																				<div class="price-block__old">1450 грн</div>
+
+																			</div>
+																		</div>
+
+																	</div>
+																</div>
+															</li>
+															<li class="card-thumb">
+																<div class="card-thumb__body">
+																	<div class="card-thumb__image">
+																		<img src="img/product/01.webp" alt="01">
+																	</div>
+																	<div class="card-thumb__content">
+																		<a href="#" class="card-thumb__title">
+																			Комплект постельного белья "Вишня" Бязь
+																		</a>
+																		<div class="card-thumb__list">
+																			<ul>
+																				<li>
+																					<strong>Розмір:</strong>
+																					<span>Двоспальний</span>
+																				</li>
+																				<li>
+																					<strong>Кількість:</strong>
+																					<span>1</span>
+																				</li>
+																				<li>
+																					<strong>Колір:</strong>
+																					<span>Білий</span>
+																				</li>
+
+																			</ul>
+																		</div>
+																		<div class="card-thumb__price">
+																			<div class="price-block">
+																				<div class="price-block__new">1245 грн</div>
+																				<div class="price-block__promotion">-12%</div>
+																				<div class="price-block__old">1450 грн</div>
+
+																			</div>
+																		</div>
+
+																	</div>
+																</div>
+															</li>
+															<li class="card-thumb">
+																<div class="card-thumb__body">
+																	<div class="card-thumb__image">
+																		<img src="img/product/01.webp" alt="01">
+																	</div>
+																	<div class="card-thumb__content">
+																		<a href="#" class="card-thumb__title">
+																			Комплект постельного белья "Вишня" Бязь
+																		</a>
+																		<div class="card-thumb__list">
+																			<ul>
+																				<li>
+																					<strong>Розмір:</strong>
+																					<span>Двоспальний</span>
+																				</li>
+																				<li>
+																					<strong>Кількість:</strong>
+																					<span>1</span>
+																				</li>
+																				<li>
+																					<strong>Колір:</strong>
+																					<span>Білий</span>
+																				</li>
+
+																			</ul>
+																		</div>
+																		<div class="card-thumb__price">
+																			<div class="price-block">
+																				<div class="price-block__new">1245 грн</div>
+																				<div class="price-block__promotion">-12%</div>
+																				<div class="price-block__old">1450 грн</div>
+
+																			</div>
+																		</div>
+
+																	</div>
+																</div>
+															</li>
+														</ul>
+													</div>
+													<button data-showmore-item-button="" type="button" class="tabs-block__more mt-3"><span>Дивитись всі (5) </span><span>Сховати</span> <i class="icon-namechevron-down"></i></button>
+												</div>
+											</div>
+											<div class="order-summary__totals">
+												<div class="order-summary__total-row">
+													<span>Всього</span>
+													<span>1245 грн</span>
+												</div>
+											</div>
+											<div class="order-summary__actions flex flex-col gap-3">
+												<button type="submit" class="button button-primary button-lg w-100 flex-1">
+													Оформити замовлення
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- /.order-page -->
+		</main>
+	</div>
+	<script src="js/app.min.js?_v=20250520135540"></script>
+</body>
+
+</html>
